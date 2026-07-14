@@ -7,6 +7,7 @@ metadata:
   tags: [agents, tools, llm, orchestration, autonomy]
 ---
 
+# Agent Design
 
 ## Purpose
 
