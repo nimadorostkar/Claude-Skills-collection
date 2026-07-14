@@ -48,6 +48,15 @@ Get structured data out of web pages reliably. The two questions that determine 
 5. **Be polite** — Rate limit, identify yourself, respect `robots.txt`, and cache. A scraper that hammers a site is both rude and likely to be blocked.
 6. **Validate the output** — A scraper that silently returns zero rows because the page changed is worse than one that crashes.
 
+## Best Practices
+
+- The most common scraping bug is a silent empty result. A page redesign turns your scraper into a machine that confidently produces nothing. Raise on an empty match, always.
+- Class names in modern frontends are generated and change on every build. `data-testid`, `id`, and semantic elements are the only stable anchors.
+- A headless browser is fifty to a hundred times slower and heavier than an HTTP request. Establish that you need one before reaching for it.
+- Rate limit and cache. Re-fetching the same page during development, dozens of times, is both wasteful and the fastest way to get your IP blocked.
+- Send a real User-Agent that identifies you and provides a contact. Anonymous scraping at volume is what gets scrapers banned as a class.
+- Respect `robots.txt` and the site's terms. Scraping public data is generally lawful in many jurisdictions; ignoring an explicit prohibition is a different matter, and the legal position varies.
+
 ## Examples
 
 **The check that determines everything:**
@@ -110,15 +119,6 @@ async def extract_products(html: str, url: str) -> list[Product]:
 
     return products
 ```
-
-## Best Practices
-
-- The most common scraping bug is a silent empty result. A page redesign turns your scraper into a machine that confidently produces nothing. Raise on an empty match, always.
-- Class names in modern frontends are generated and change on every build. `data-testid`, `id`, and semantic elements are the only stable anchors.
-- A headless browser is fifty to a hundred times slower and heavier than an HTTP request. Establish that you need one before reaching for it.
-- Rate limit and cache. Re-fetching the same page during development, dozens of times, is both wasteful and the fastest way to get your IP blocked.
-- Send a real User-Agent that identifies you and provides a contact. Anonymous scraping at volume is what gets scrapers banned as a class.
-- Respect `robots.txt` and the site's terms. Scraping public data is generally lawful in many jurisdictions; ignoring an explicit prohibition is a different matter, and the legal position varies.
 
 ## Notes
 
