@@ -105,7 +105,7 @@ npm install --dry-run left-pad-ish 2>&1 | grep "added"
 # added 47 packages   <- for a function you could write in six lines
 ```
 
-## Responding to a compromised package
+**Responding to a compromised package:**
 
 ```text
 1. Determine exposure: is the compromised version in any lockfile, in any
