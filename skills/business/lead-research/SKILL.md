@@ -65,10 +65,10 @@ Research an account well enough that the outreach is obviously not a template. T
 ## Acme Logistics — qualification: STRONG
 
 **Profile match**
-- 340 employees (target: 100-1,000) ✓
-- Series C, $60M, 8 months ago ✓
-- Self-reported "50+ microservices" (engineering blog, March) ✓
-- No dedicated platform team (inferred: see hiring, below) ✓
+- 340 employees (target: 100-1,000)
+- Series C, $60M, 8 months ago
+- Self-reported "50+ microservices" (engineering blog, March)
+- No dedicated platform team (inferred: see hiring, below)
 
 **Trigger — this is the reason to reach out now**
 Posted 4 roles in the last 3 weeks: 2x Platform Engineer, 1x SRE, 1x
@@ -95,10 +95,10 @@ their own words back at them, and it demonstrates that we understand the
 problem rather than the keyword.
 
 **Disqualifiers checked**
-- Not already a customer ✓
+- Not already a customer
 - No existing vendor in this category (no relevant job-posting requirements,
-  no mentions in their blog) ✓
-- Budget: they just raised, and they have opened four requisitions. ✓
+  no mentions in their blog)
+- Budget: they just raised, and they have opened four requisitions.
 ```
 
 ## Notes

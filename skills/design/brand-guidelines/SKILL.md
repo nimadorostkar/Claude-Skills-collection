@@ -87,7 +87,7 @@ We are direct and specific. We do not hedge, and we do not perform enthusiasm.
 
 | Off-brand                                          | On-brand                                    |
 |----------------------------------------------------|---------------------------------------------|
-| "Oops! Something went wrong 😔"                     | "We couldn't save your changes. Try again." |
+| "Oops! Something went wrong."                     | "We couldn't save your changes. Try again." |
 | "We're thrilled to announce an exciting new..."     | "Exports now include line items."           |
 | "Please kindly note that you may wish to consider"  | "You can also..."                           |
 
