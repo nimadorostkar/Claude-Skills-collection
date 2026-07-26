@@ -212,5 +212,5 @@ No. It is methodology — position sizing, backtesting, risk limits — and ever
 Skills rot. A confidently stated obsolete practice is worse than no skill at all. Each carries a version, and the `Notes` section is where version caveats live. See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
-
+@nimadorostkar
 [MIT](LICENSE). Use them, fork them, ship them.
