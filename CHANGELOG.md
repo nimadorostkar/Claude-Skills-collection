@@ -1,5 +1,6 @@
 # Changelog
 
+
 All notable changes to this repository are recorded here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 A skill's guidance is an interface. Changing what a skill tells an agent to do is a breaking change for anyone whose workflow depends on it, and it is versioned as one.
@@ -54,3 +55,4 @@ First public release. 137 skills across 17 categories, each following a single t
 - Category indexes and a full catalog, generated from the skills themselves so they cannot drift.
 - Authoring and standards documentation.
 - Three worked examples showing skills in use end to end.
+
