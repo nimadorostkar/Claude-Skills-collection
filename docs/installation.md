@@ -4,6 +4,7 @@ Skills are directories containing a `SKILL.md`. Installing one means putting tha
 
 ## Claude Code
 
+
 **A single skill** — copy it in:
 
 ```bash
