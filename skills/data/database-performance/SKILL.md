@@ -1,6 +1,6 @@
 ---
 name: database-performance
-description: Use when a database is the bottleneck. Covers finding the expensive queries, index strategy, lock contention, connection saturation, and the schema decisions that make queries fast or impossible.
+description: Use when a database is the bottleneck. Covers finding the expensive queries, index strategy, lock contention, connection saturation, and the schema decisions that make queries fast or impossible. Trigger on "this query is slow", "the page is slow and i think it's the database", "deadlocks in production", "too many connections". Do not use for Postgres-specific vacuum, bloat, or pooling — see the postgres skill; for writing the SQL itself, see the sql skill.
 metadata:
   category: data
   version: 1.0.0

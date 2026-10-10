@@ -1,6 +1,6 @@
 ---
 name: cloud-architecture
-description: Use when designing cloud infrastructure. Covers network topology, identity and least privilege, multi-AZ and multi-region trade-offs, managed versus self-hosted decisions, and designing for cost.
+description: Use when designing cloud infrastructure. Covers network topology, identity and least privilege, multi-AZ and multi-region trade-offs, managed versus self-hosted decisions, and designing for cost. Trigger on "design the aws setup for our new service", "do we need multi-region", "managed rds or run postgres ourselves". Do not use for application component design — see the system-design skill; for writing the infrastructure code, see the terraform skill.
 metadata:
   category: devops
   version: 1.0.0

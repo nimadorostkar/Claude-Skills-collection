@@ -1,6 +1,6 @@
 ---
 name: pandas
-description: Use when analyzing or transforming tabular data in Python. Covers vectorized operations, memory-efficient dtypes, correct joins, groupby patterns, and avoiding the silent errors pandas makes easy.
+description: Use when analyzing or transforming tabular data in Python. Covers vectorized operations, memory-efficient dtypes, correct joins, groupby patterns, and avoiding the silent errors pandas makes easy. Trigger on "pandas is slow", "dataframe runs out of memory", "merge duplicated my rows", "SettingWithCopyWarning". Do not use for data too large for one machine — see the spark skill; for xlsx or csv files as documents, see the spreadsheets skill.
 metadata:
   category: data
   version: 1.0.0

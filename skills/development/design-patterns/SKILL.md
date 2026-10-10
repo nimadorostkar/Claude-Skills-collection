@@ -1,6 +1,6 @@
 ---
 name: design-patterns
-description: Use when choosing how to structure code for a recurring problem. Covers the patterns that earn their keep, the ones that usually do not, and how to recognize when a pattern is being applied for its own sake.
+description: Use when choosing how to structure code for a recurring problem. Covers the patterns that earn their keep, the ones that usually do not, and how to recognize when a pattern is being applied for its own sake. Trigger on "should i use a strategy pattern here", "inheritance or composition", "this is over-abstracted", "every new type means touching ten files". Do not use for untangling one overly complex module — see the simple-design skill.
 metadata:
   category: development
   version: 1.0.0

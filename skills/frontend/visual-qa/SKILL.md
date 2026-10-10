@@ -1,6 +1,6 @@
 ---
 name: visual-qa
-description: Use when verifying that a UI renders correctly. Covers visual regression testing, responsive checks across breakpoints, cross-browser verification, and screenshot-based review of an implementation against a design.
+description: Use when verifying that a UI renders correctly. Covers visual regression testing, responsive checks across breakpoints, cross-browser verification, and screenshot-based review of an implementation against a design. Trigger on "does this match the figma", "set up screenshot tests", "layout breaks on mobile", "looks wrong in safari". Do not use for exploratory behavior testing — see the web-app-testing skill; for design critique, see the ui-review skill.
 metadata:
   category: frontend
   version: 1.0.0

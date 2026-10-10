@@ -1,6 +1,6 @@
 ---
 name: incident-response
-description: Use during and after a production incident. Covers triage, mitigation before diagnosis, communication, and blameless postmortems that produce action items someone actually does.
+description: Use during and after a production incident. Covers triage, mitigation before diagnosis, communication, and blameless postmortems that produce action items someone actually does. Trigger on "prod is down", "we're in the middle of an outage", "write the postmortem for yesterday's incident", "set up an on-call rotation". Do not use for root-causing a bug outside an incident — see the debugging skill; for SLOs and error budgets, see the site-reliability skill.
 metadata:
   category: devops
   version: 1.0.0

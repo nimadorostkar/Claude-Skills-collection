@@ -1,6 +1,6 @@
 ---
 name: context-engineering
-description: Use when managing what an LLM sees. Covers context-window budgeting, retrieval and compaction, memory across turns, tool-result pruning, and the failure modes that come from too much context rather than too little.
+description: Use when managing what an LLM sees. Covers context-window budgeting, retrieval and compaction, memory across turns, tool-result pruning, and the failure modes that come from too much context rather than too little. Trigger on "model gets worse as the conversation gets longer", "context window keeps filling up". Do not use for state that persists across sessions — see the agent-memory skill; for retrieval over a document corpus, see the rag skill.
 metadata:
   category: ai
   version: 1.0.0

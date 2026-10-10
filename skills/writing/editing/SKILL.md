@@ -1,6 +1,6 @@
 ---
 name: editing
-description: Use when editing prose for clarity and force. Covers cutting, structural editing, the specific constructions that weaken writing, and editing someone else's work without destroying their voice.
+description: Use when editing prose for clarity and force. Covers cutting, structural editing, the specific constructions that weaken writing, and editing someone else's work without destroying their voice. Trigger on "tighten this draft", "make this read better", "cut this to 800 words", "edit this without changing my voice". Do not use for writing a piece from scratch — see the long-form-content skill.
 metadata:
   category: writing
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: visual-design
-description: Use when creating posters, covers, social graphics, or other static visual designs. Covers composition, typographic hierarchy, colour, and producing original work rather than pastiche.
+description: Use when creating posters, covers, social graphics, or other static visual designs. Covers composition, typographic hierarchy, colour, and producing original work rather than pastiche. Trigger on "design a poster for", "make a cover image", "social graphic for our launch", "this layout feels unbalanced". Do not use for code-driven generative pieces — see the generative-art skill; for interface critique, see the ui-review skill.
 metadata:
   category: design
   version: 1.0.0

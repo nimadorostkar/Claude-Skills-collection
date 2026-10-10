@@ -1,6 +1,6 @@
 ---
 name: prompt-engineering
-description: Use when writing or improving prompts for a language model. Covers instruction structure, examples, reasoning elicitation, output formatting, and systematically diagnosing why a prompt fails.
+description: Use when writing or improving prompts for a language model. Covers instruction structure, examples, reasoning elicitation, output formatting, and systematically diagnosing why a prompt fails. Trigger on "improve this prompt", "the model ignores my instructions", "prompt works sometimes and fails randomly". Do not use for guaranteeing schema-valid JSON — see the structured-output skill; for measuring prompt quality, see the llm-evaluation skill.
 metadata:
   category: ai
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: rust
-description: Use when writing Rust or resolving borrow-checker, lifetime, and trait errors. Covers ownership models, error handling with thiserror and anyhow, async with Tokio, and safe abstractions over unsafe code.
+description: Use when writing Rust or resolving borrow-checker, lifetime, and trait errors. Covers ownership models, error handling with thiserror and anyhow, async with Tokio, and safe abstractions over unsafe code. Trigger on "borrow checker won't let me", "lifetime may not live long enough", "thiserror or anyhow", "the trait bound is not satisfied".
 metadata:
   category: languages
   version: 1.0.0

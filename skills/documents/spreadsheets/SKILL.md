@@ -1,6 +1,6 @@
 ---
 name: spreadsheets
-description: Use when creating, reading, or fixing spreadsheets (.xlsx, .csv). Covers formulas, formatting, charts, data cleaning, and handling the messy real-world files that are not actually tabular.
+description: Use when creating, reading, or fixing spreadsheets (.xlsx, .csv). Covers formulas, formatting, charts, data cleaning, and handling the messy real-world files that are not actually tabular. Trigger on "clean up this messy excel file", "add formulas to this spreadsheet", "read this xlsx", "this csv won't parse". Do not use for heavy dataframe analysis in code — see the pandas skill.
 metadata:
   category: documents
   version: 1.0.0

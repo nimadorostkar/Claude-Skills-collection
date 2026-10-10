@@ -1,6 +1,6 @@
 ---
 name: api-design
-description: Use when designing or reviewing an HTTP API. Covers resource modeling, status codes, pagination, idempotency, versioning, error formats, and the contract details that break clients when you get them wrong.
+description: Use when designing or reviewing an HTTP API. Covers resource modeling, status codes, pagination, idempotency, versioning, error formats, and the contract details that break clients when you get them wrong. Trigger on "design the endpoints for this", "what status code should this return", "how should we paginate this api", "review our openapi spec". Do not use for GraphQL schemas — see the graphql skill.
 metadata:
   category: backend
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: spring-boot
-description: Use when building Spring Boot services. Covers dependency injection, transaction boundaries, JPA performance, configuration, validation, and testing slices.
+description: Use when building Spring Boot services. Covers dependency injection, transaction boundaries, JPA performance, configuration, validation, and testing slices. Trigger on "LazyInitializationException", "@Transactional not working", "n+1 queries with jpa", "spring tests are slow". Do not use for general Java or Kotlin language questions — see the java-kotlin skill.
 metadata:
   category: backend
   version: 1.0.0

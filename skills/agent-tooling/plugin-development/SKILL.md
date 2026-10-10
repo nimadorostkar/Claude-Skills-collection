@@ -1,6 +1,6 @@
 ---
 name: plugin-development
-description: Use when packaging skills, commands, hooks, and MCP servers into a distributable plugin. Covers manifest structure, bundling, versioning, testing, and distribution through a marketplace.
+description: Use when packaging skills, commands, hooks, and MCP servers into a distributable plugin. Covers manifest structure, bundling, versioning, testing, and distribution through a marketplace. Trigger on "package my skills as a plugin", "publish to a plugin marketplace", "share our commands with the team", "bump the plugin version". Do not use for writing one skill — see the skill-authoring skill; for building the MCP server itself, see the mcp-server skill.
 metadata:
   category: agent-tooling
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: web-data-extraction
-description: Use when extracting data from web pages. Covers choosing between an API, static parsing, and a browser, handling JavaScript-rendered content, resilient selectors, rate limiting, and scraping responsibly.
+description: Use when extracting data from web pages. Covers choosing between an API, static parsing, and a browser, handling JavaScript-rendered content, resilient selectors, rate limiting, and scraping responsibly. Trigger on "scrape this website", "my scraper returns empty results", "pull this table from a web page". Do not use for saving a page as Markdown — see the document-conversion skill; for browser end-to-end tests, see the e2e-playwright skill.
 metadata:
   category: productivity
   version: 1.0.0

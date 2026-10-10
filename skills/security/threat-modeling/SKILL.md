@@ -1,6 +1,6 @@
 ---
 name: threat-modeling
-description: Use when designing a system and identifying what could go wrong. Applies STRIDE to a data-flow model, ranks threats by realistic risk, and produces mitigations that are actually built.
+description: Use when designing a system and identifying what could go wrong. Applies STRIDE to a data-flow model, ranks threats by realistic risk, and produces mitigations that are actually built. Trigger on "threat model this", "what could go wrong security-wise", "run stride on this design", "security risks of this new integration". Do not use for reviewing code already written — see the security-review skill.
 metadata:
   category: security
   version: 1.0.0

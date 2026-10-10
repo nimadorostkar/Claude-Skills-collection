@@ -1,6 +1,6 @@
 ---
 name: flutter
-description: Use when building Flutter applications. Covers widget composition, state management, build-method performance, platform channels, and the rendering behavior behind most Flutter jank.
+description: Use when building Flutter applications. Covers widget composition, state management, build-method performance, platform channels, and the rendering behavior behind most Flutter jank. Trigger on "my flutter app is janky", "too many rebuilds", "riverpod or bloc", "call native code from flutter". Do not use for store submission, signing, and rollout — see the mobile-release skill.
 metadata:
   category: mobile
   version: 1.0.0

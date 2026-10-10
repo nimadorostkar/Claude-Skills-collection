@@ -1,6 +1,6 @@
 ---
 name: deep-research
-description: Use when researching a question that requires multiple sources. Covers question decomposition, source evaluation, tracking what is known versus assumed, and producing a synthesis with honest confidence levels.
+description: Use when researching a question that requires multiple sources. Covers question decomposition, source evaluation, tracking what is known versus assumed, and producing a synthesis with honest confidence levels. Trigger on "research this for me", "what does the evidence actually say about", "compare these options and give me a briefing". Do not use for verifying one specific claim or number — see the fact-checking skill.
 metadata:
   category: productivity
   version: 1.0.0

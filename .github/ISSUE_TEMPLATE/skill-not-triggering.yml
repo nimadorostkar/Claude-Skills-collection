@@ -1,0 +1,34 @@
+name: Skill did not load
+description: A skill should have loaded for a request and did not — or loaded when it should not have.
+labels: [triggering]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+      description: The skill's name, as in its directory.
+      placeholder: database-performance
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: The request, verbatim
+      description: Exactly what you typed. Paraphrasing hides the bug — the fix is in matching your words.
+    validations:
+      required: true
+  - type: dropdown
+    id: direction
+    attributes:
+      label: What happened
+      options:
+        - It should have loaded and did not
+        - It loaded and should not have
+        - A different skill loaded instead
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent and version
+      placeholder: Claude Code 2.1.296

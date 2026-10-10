@@ -1,6 +1,6 @@
 ---
 name: aws-serverless
-description: Use when building serverless systems on AWS. Covers Lambda design, cold starts, event-driven patterns with EventBridge and SQS, idempotency, step functions, and the limits that shape the architecture.
+description: Use when building serverless systems on AWS. Covers Lambda design, cold starts, event-driven patterns with EventBridge and SQS, idempotency, step functions, and the limits that shape the architecture. Trigger on "lambda cold starts are killing latency", "sqs messages processed twice". Do not use for container workloads on a cluster — see the kubernetes skill; for broker-agnostic events, see the event-driven-architecture skill.
 metadata:
   category: devops
   version: 1.0.0

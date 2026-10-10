@@ -1,6 +1,6 @@
 ---
 name: performance-testing
-description: Use when load testing a system. Covers workload modeling, ramp profiles, what to measure, finding the breaking point, and distinguishing a real bottleneck from a badly configured test.
+description: Use when load testing a system. Covers workload modeling, ramp profiles, what to measure, finding the breaking point, and distinguishing a real bottleneck from a badly configured test. Trigger on "load test this api", "how many users can we handle", "write a k6 script", "find the breaking point". Do not use for a slow page in the browser — see the web-performance skill; for a slow query, see the database-performance skill.
 metadata:
   category: testing
   version: 1.0.0

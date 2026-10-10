@@ -1,6 +1,6 @@
 ---
 name: aws-cdk
-description: Use when defining AWS infrastructure with the CDK. Covers construct design, stack organization, environment configuration, testing infrastructure code, and safe deployment.
+description: Use when defining AWS infrastructure with the CDK. Covers construct design, stack organization, environment configuration, testing infrastructure code, and safe deployment. Trigger on "cdk deploy wants to replace my database", "how should i split these cdk stacks", "write tests for my cdk construct". Do not use for HCL or OpenTofu code — see the terraform skill; for choosing the AWS architecture itself, see the cloud-architecture skill.
 metadata:
   category: devops
   version: 1.0.0

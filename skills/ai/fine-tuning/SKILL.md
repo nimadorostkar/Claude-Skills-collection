@@ -1,6 +1,6 @@
 ---
 name: fine-tuning
-description: Use when considering fine-tuning a model. Covers when fine-tuning beats prompting or RAG, dataset construction, LoRA and full fine-tuning, evaluation, and the failure modes that waste the effort.
+description: Use when considering fine-tuning a model. Covers when fine-tuning beats prompting or RAG, dataset construction, LoRA and full fine-tuning, evaluation, and the failure modes that waste the effort. Trigger on "should we fine-tune or just prompt", "fine-tune a small model to replace the big one", "prepare a dataset for lora". Do not use for giving the model fresh or private knowledge — see the rag skill; for classical ML training pipelines, see the ml-pipeline skill.
 metadata:
   category: ai
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: php
-description: Use when writing PHP 8.2+ or working in Laravel and Symfony codebases. Covers strict types, enums, readonly classes, attributes, PSR standards, and static analysis with PHPStan.
+description: Use when writing PHP 8.2+ or working in Laravel and Symfony codebases. Covers strict types, enums, readonly classes, attributes, PSR standards, and static analysis with PHPStan. Trigger on "add phpstan to this legacy project", "laravel eloquent is too slow", "upgrade this to php 8 enums and readonly", "add strict types everywhere". Do not use for an injection or auth vulnerability audit — see the security-review skill.
 metadata:
   category: languages
   version: 1.0.0

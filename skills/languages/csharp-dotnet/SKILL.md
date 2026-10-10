@@ -1,6 +1,6 @@
 ---
 name: csharp-dotnet
-description: Use when building on .NET 8+ with C# 12. Covers nullable reference types, records, async/await correctness, minimal APIs, dependency injection, and EF Core query performance.
+description: Use when building on .NET 8+ with C# 12. Covers nullable reference types, records, async/await correctness, minimal APIs, dependency injection, and EF Core query performance. Trigger on "async deadlock in my asp.net app", "turn on nullable reference types", "ef core is doing n+1 queries", "set up a minimal api in .net 8". Do not use for tuning the database itself — see the database-performance skill.
 metadata:
   category: languages
   version: 1.0.0

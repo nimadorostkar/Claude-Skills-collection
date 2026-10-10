@@ -1,6 +1,6 @@
 ---
 name: diagrams
-description: Use when creating technical diagrams as code. Covers Mermaid for architecture, sequence, and flow diagrams, choosing the right diagram type, and keeping diagrams accurate as the system changes.
+description: Use when creating technical diagrams as code. Covers Mermaid for architecture, sequence, and flow diagrams, choosing the right diagram type, and keeping diagrams accurate as the system changes. Trigger on "draw an architecture diagram", "make a mermaid sequence diagram", "diagram this request flow". Do not use for designing the architecture itself — see the system-design skill.
 metadata:
   category: documents
   version: 1.0.0

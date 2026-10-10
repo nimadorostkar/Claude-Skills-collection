@@ -1,6 +1,6 @@
 ---
 name: stock-screening
-description: Use when building a screen to find candidates. Covers screen design, criteria that actually discriminate, avoiding overfitting, survivorship bias, and turning a screen's output into a shortlist rather than a shopping list.
+description: Use when building a screen to find candidates. Covers screen design, criteria that actually discriminate, avoiding overfitting, survivorship bias, and turning a screen's output into a shortlist rather than a shopping list. Trigger on "build a stock screener", "my screen returns hundreds of stocks", "find stocks that match these criteria". Do not use for testing whether the screen's picks would have made money — see the backtesting skill.
 metadata:
   category: finance
   version: 1.0.0

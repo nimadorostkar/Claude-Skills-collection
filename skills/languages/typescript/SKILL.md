@@ -1,6 +1,6 @@
 ---
 name: typescript
-description: Use when writing or hardening TypeScript in strict mode. Covers advanced types, discriminated unions, runtime validation at trust boundaries, generics, and removing `any` from an existing codebase.
+description: Use when writing or hardening TypeScript in strict mode. Covers advanced types, discriminated unions, runtime validation at trust boundaries, generics, and removing `any` from an existing codebase. Trigger on "get rid of all the any types", "turn on strict mode in tsconfig", "type inference is failing on this generic", "validate this api response at runtime". Do not use for React component and hook design — see the react skill.
 metadata:
   category: languages
   version: 1.0.0

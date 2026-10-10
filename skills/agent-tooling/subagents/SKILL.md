@@ -1,6 +1,6 @@
 ---
 name: subagents
-description: Use when delegating work to a separate agent with its own context. Covers when delegation pays off, designing a subagent's scope and prompt, parallel fan-out, and the cost of a cold start.
+description: Use when delegating work to a separate agent with its own context. Covers when delegation pays off, designing a subagent's scope and prompt, parallel fan-out, and the cost of a cold start. Trigger on "spin up a subagent for this", "run these searches in parallel", "the search results are flooding my context", "have a fresh agent verify this". Do not use for building a standalone tool-using agent — see the agent-design skill.
 metadata:
   category: agent-tooling
   version: 1.0.0

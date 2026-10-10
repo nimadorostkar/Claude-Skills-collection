@@ -1,6 +1,6 @@
 ---
 name: meeting-notes
-description: Use when turning a meeting, call, or transcript into notes. Covers extracting decisions and actions rather than transcribing discussion, and producing something that is useful a month later.
+description: Use when turning a meeting, call, or transcript into notes. Covers extracting decisions and actions rather than transcribing discussion, and producing something that is useful a month later. Trigger on "turn this transcript into notes", "summarize this call", "what were the action items from this meeting". Do not use for synthesizing user interviews into findings — see the user-research skill.
 metadata:
   category: productivity
   version: 1.0.0

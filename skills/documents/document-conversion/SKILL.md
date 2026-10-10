@@ -1,6 +1,6 @@
 ---
 name: document-conversion
-description: Use when converting between document formats. Covers HTML to Markdown, document to Markdown, PDF generation from HTML, and preserving structure through a conversion rather than losing it.
+description: Use when converting between document formats. Covers HTML to Markdown, document to Markdown, PDF generation from HTML, and preserving structure through a conversion rather than losing it. Trigger on "convert this html to markdown", "turn this docx into markdown", "make a pdf from this html". Do not use for extracting or editing content inside a PDF — see the pdf skill; for editing .docx content, see the word-documents skill.
 metadata:
   category: documents
   version: 1.0.0

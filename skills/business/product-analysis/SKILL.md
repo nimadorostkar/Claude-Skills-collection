@@ -1,6 +1,6 @@
 ---
 name: product-analysis
-description: Use when analyzing a product's performance or deciding what to build. Covers metric selection, funnel and retention analysis, distinguishing signal from noise, and prioritizing on evidence.
+description: Use when analyzing a product's performance or deciding what to build. Covers metric selection, funnel and retention analysis, distinguishing signal from noise, and prioritizing on evidence. Trigger on "why did signups drop last week", "did this feature work", "what should we build next", "set up product analytics". Do not use for interviewing or usability-testing users — see the user-research skill.
 metadata:
   category: business
   version: 1.0.0

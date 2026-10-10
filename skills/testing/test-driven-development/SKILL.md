@@ -1,6 +1,6 @@
 ---
 name: test-driven-development
-description: Use when practicing TDD. Covers the red-green-refactor loop, choosing the next test, designing through tests, and when TDD is and is not the right approach.
+description: Use when practicing TDD. Covers the red-green-refactor loop, choosing the next test, designing through tests, and when TDD is and is not the right approach. Trigger on "let's do tdd", "write the failing test first", "red green refactor", "what test should i write next". Do not use for deciding test levels across a suite — see the test-strategy skill; for fixing a reported bug end to end, see the bug-fix-protocol skill.
 metadata:
   category: testing
   version: 1.0.0

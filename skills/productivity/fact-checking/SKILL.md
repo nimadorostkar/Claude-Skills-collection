@@ -1,6 +1,6 @@
 ---
 name: fact-checking
-description: Use when verifying claims. Covers tracing a claim to its origin, evaluating sources, detecting laundered statistics, and reporting a verdict with the evidence rather than an assertion.
+description: Use when verifying claims. Covers tracing a claim to its origin, evaluating sources, detecting laundered statistics, and reporting a verdict with the evidence rather than an assertion. Trigger on "is this true", "where does this statistic come from", "fact check this article". Do not use for open-ended multi-source research — see the deep-research skill.
 metadata:
   category: productivity
   version: 1.0.0

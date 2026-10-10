@@ -1,6 +1,6 @@
 ---
 name: portfolio-review
-description: Use when reviewing a portfolio's construction and exposure. Covers concentration, correlation, factor and sector exposure, hidden bets, and whether the portfolio expresses the intended view.
+description: Use when reviewing a portfolio's construction and exposure. Covers concentration, correlation, factor and sector exposure, hidden bets, and whether the portfolio expresses the intended view. Trigger on "review my portfolio", "am i actually diversified", "is too much of my money in tech". Do not use for setting drawdown limits or stop rules — see the risk-management skill.
 metadata:
   category: finance
   version: 1.0.0

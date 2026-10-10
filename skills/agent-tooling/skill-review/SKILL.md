@@ -1,6 +1,6 @@
 ---
 name: skill-review
-description: Use when reviewing or improving an existing agent skill. Covers triggering accuracy, content quality, redundancy with the base model, and measuring whether the skill actually changes behavior.
+description: Use when reviewing or improving an existing agent skill. Covers triggering accuracy, content quality, redundancy with the base model, and measuring whether the skill actually changes behavior. Trigger on "my skill never triggers", "review this skill", "these two skills overlap", "audit our skill library". Do not use for writing a skill from scratch — see the skill-authoring skill.
 metadata:
   category: agent-tooling
   version: 1.0.0

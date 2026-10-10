@@ -1,6 +1,6 @@
 ---
 name: network-troubleshooting
-description: Use when diagnosing network failures: connection refused, timeouts, TLS errors, DNS problems, and intermittent failures. Covers layer-by-layer isolation and the tools that answer each question.
+description: Use when diagnosing network failures — connection refused, timeouts, TLS errors, DNS problems, and intermittent failures. Covers layer-by-layer isolation and the tools that answer each question. Trigger on "connection refused", "curl times out from the server but works locally", "ssl certificate verify failed", "dns only resolves sometimes". Do not use for pod networking or service discovery inside a cluster — see the kubernetes skill.
 metadata:
   category: devops
   version: 1.0.0

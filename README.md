@@ -44,9 +44,9 @@ skills/ai/rag/SKILL.md               →  loaded when a retrieval system returns
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md
 ├── LICENSE
-├── categories/            One index per category, with a one-line summary of each skill
+├── categories/            One index per category, with a one-line summary of each skill (generated)
 ├── docs/
-│   ├── catalog.md         Every skill, linked
+│   ├── catalog.md         Every skill, linked (generated)
 │   ├── authoring.md       How to write a skill that triggers and works
 │   ├── standards.md       The template and the style rules
 │   ├── installation.md    Every installation path, in detail
@@ -54,8 +54,11 @@ skills/ai/rag/SKILL.md               →  loaded when a retrieval system returns
 ├── examples/              Worked end-to-end sessions showing skills in use
 ├── templates/
 │   └── SKILL.md           The canonical template
+├── .claude-plugin/
+│   └── marketplace.json   One Claude Code plugin per category (generated)
 ├── scripts/
-│   └── validate.py        The check that runs in CI
+│   ├── validate.py        The check that runs in CI
+│   └── build_index.py     Generates the catalog, category indexes, and marketplace
 └── skills/
     ├── languages/         python, typescript, go, rust, java-kotlin, …
     ├── development/       code-review, debugging, refactoring, system-design, …
@@ -78,26 +81,22 @@ skills/ai/rag/SKILL.md               →  loaded when a retrieval system returns
 
 ## Installation
 
-Clone the repository, then link the skills you want into your agent's skills directory.
+**Claude Code, as plugins** — recommended. Each category is a plugin; install the two or three you work in:
 
-**Everything:**
-
-```bash
-git clone https://github.com/nimadorostkar/claude-skills.git
-ln -s "$(pwd)/claude-skills/skills"/*/* ~/.claude/skills/
+```
+/plugin install backend --marketplace nimadorostkar/Claude-Skills-collection
+/plugin install data --marketplace nimadorostkar/Claude-Skills-collection
 ```
 
-**One category** — recommended. Loading 137 skill descriptions costs context on every session; most people want two or three categories.
+Loading 137 skill descriptions costs context on every session, which is why there is no "install everything" plugin. Each [category index](docs/catalog.md) shows its own install line.
+
+**From a clone** — for one skill, or for agents other than Claude Code:
 
 ```bash
-ln -s "$(pwd)/claude-skills/skills/backend"/* ~/.claude/skills/
-ln -s "$(pwd)/claude-skills/skills/data"/*    ~/.claude/skills/
-```
-
-**One skill:**
-
-```bash
-cp -r claude-skills/skills/ai/rag ~/.claude/skills/
+git clone https://github.com/nimadorostkar/Claude-Skills-collection.git claude-skills
+mkdir -p ~/.claude/skills
+ln -s "$(pwd)/claude-skills/skills/backend"/* ~/.claude/skills/   # one category, kept current by git pull
+cp -r claude-skills/skills/ai/rag ~/.claude/skills/               # one skill
 ```
 
 **Per project** — commit the skills your team should share into the repository itself:
@@ -108,7 +107,7 @@ cp -r ~/src/claude-skills/skills/testing/test-strategy .claude/skills/
 git add .claude/skills && git commit -m "Add shared test-strategy skill"
 ```
 
-See [docs/installation.md](docs/installation.md) for other agents and for project-scoped setups.
+See [docs/installation.md](docs/installation.md) for older Claude Code versions, other agents, updating, and removing.
 
 ## Usage
 
@@ -150,7 +149,7 @@ Every skill in this repository is identical in shape:
 ```markdown
 ---
 name: skill-name
-description: Use when <trigger>. Covers <scope>.
+description: Use when <trigger>. Covers <scope>. Trigger on "<phrasing>". Do not use for <neighbour> — see the <other> skill.
 metadata:
   category: <category>
   version: 1.0.0
@@ -188,7 +187,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md). In short:
 
 1. Test the triggering, with ten real phrasings.
 2. Run the task without the skill. Then with it. Show the difference.
-3. Follow the template exactly. `python scripts/validate.py` must pass.
+3. Follow the template exactly. `python scripts/validate.py` must pass, and `python scripts/build_index.py` must be re-run.
 4. No filler. If a section has nothing to say, the skill is too thin.
 
 ## FAQ
@@ -212,7 +211,5 @@ No. It is methodology — position sizing, backtesting, risk limits — and ever
 Skills rot. A confidently stated obsolete practice is worse than no skill at all. Each carries a version, and the `Notes` section is where version caveats live. See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
-
-@nimadorostkar
 
 [MIT](LICENSE). Use them, fork them, ship them.

@@ -1,6 +1,6 @@
 ---
 name: quantitative-analysis
-description: Use when applying statistical methods to financial data. Covers return distributions, stationarity, correlation versus causation, the multiple-testing problem, and the statistical traps specific to financial time series.
+description: Use when applying statistical methods to financial data. Covers return distributions, stationarity, correlation versus causation, the multiple-testing problem, and the statistical traps specific to financial time series. Trigger on "is this signal statistically significant", "are these returns normally distributed", "is this correlation real or noise". Do not use for simulating a full strategy with costs — see the backtesting skill.
 metadata:
   category: finance
   version: 1.0.0

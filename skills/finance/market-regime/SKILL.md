@@ -1,6 +1,6 @@
 ---
 name: market-regime
-description: Use when characterizing the current market environment. Covers trend and volatility regimes, risk-on versus risk-off signals, macro context, and matching strategy to regime rather than fighting it.
+description: Use when characterizing the current market environment. Covers trend and volatility regimes, risk-on versus risk-off signals, macro context, and matching strategy to regime rather than fighting it. Trigger on "what kind of market are we in", "is it risk on or risk off right now", "my strategy stopped working this year". Do not use for advance-decline and participation internals — see the market-breadth skill.
 metadata:
   category: finance
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: generative-art
-description: Use when creating algorithmic or generative visual art. Covers composition through code, controlled randomness, colour systems, and building work that is varied without being arbitrary.
+description: Use when creating algorithmic or generative visual art. Covers composition through code, controlled randomness, colour systems, and building work that is varied without being arbitrary. Trigger on "make some generative art", "draw a procedural pattern in code", "creative coding sketch", "turn this data into an art piece". Do not use for posters or social graphics — see the visual-design skill.
 metadata:
   category: design
   version: 1.0.0

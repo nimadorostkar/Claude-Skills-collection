@@ -1,6 +1,6 @@
 ---
 name: slash-commands
-description: Use when creating reusable slash commands for an agent. Covers when a command beats a skill, argument handling, composing tool calls, and writing commands that are worth typing.
+description: Use when creating reusable slash commands for an agent. Covers when a command beats a skill, argument handling, composing tool calls, and writing commands that are worth typing. Trigger on "make a slash command for", "i keep typing the same prompt", "pass arguments to my command". Do not use for capabilities the model should load on its own — see the skill-authoring skill; for enforcement on every action, see the hooks skill.
 metadata:
   category: agent-tooling
   version: 1.0.0

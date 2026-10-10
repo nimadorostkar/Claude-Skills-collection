@@ -1,6 +1,6 @@
 ---
 name: postgres
-description: Use when working with PostgreSQL specifically. Covers indexing, MVCC and vacuum, connection pooling, partitioning, JSONB, replication, and the operational realities that separate Postgres from generic SQL.
+description: Use when working with PostgreSQL specifically. Covers indexing, MVCC and vacuum, connection pooling, partitioning, JSONB, replication, and the operational realities that separate Postgres from generic SQL. Trigger on "postgres table is bloated", "autovacuum isn't keeping up", "set up pgbouncer", "add a column without locking the table". Do not use for slow queries on any engine — see the database-performance skill.
 metadata:
   category: data
   version: 1.0.0

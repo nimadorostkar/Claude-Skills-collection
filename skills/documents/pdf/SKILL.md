@@ -1,6 +1,6 @@
 ---
 name: pdf
-description: Use when working with PDF files. Covers text and table extraction, merging and splitting, form filling, watermarking, OCR for scanned documents, and generating PDFs.
+description: Use when working with PDF files. Covers text and table extraction, merging and splitting, form filling, watermarking, OCR for scanned documents, and generating PDFs. Trigger on "extract the tables from this pdf", "merge these pdfs", "fill out this pdf form", "ocr this scanned document". Do not use for converting HTML or Word into another format — see the document-conversion skill.
 metadata:
   category: documents
   version: 1.0.0

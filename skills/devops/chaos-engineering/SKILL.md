@@ -1,6 +1,6 @@
 ---
 name: chaos-engineering
-description: Use when verifying a system's resilience by injecting controlled failure. Covers hypothesis-driven experiments, blast-radius control, failure injection techniques, and running game days safely.
+description: Use when verifying a system's resilience by injecting controlled failure. Covers hypothesis-driven experiments, blast-radius control, failure injection techniques, and running game days safely. Trigger on "does our failover actually work", "plan a game day", "kill a node in staging and see what breaks". Do not use for load or stress testing — see the performance-testing skill; for SLOs and degradation policy, see the site-reliability skill.
 metadata:
   category: devops
   version: 1.0.0

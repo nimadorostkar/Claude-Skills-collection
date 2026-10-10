@@ -1,6 +1,6 @@
 ---
 name: domain-modeling
-description: Use when the code's vocabulary does not match the business's. Establishes a ubiquitous language, models domain concepts as explicit types, and identifies bounded contexts.
+description: Use when the code's vocabulary does not match the business's. Establishes a ubiquitous language, models domain concepts as explicit types, and identifies bounded contexts. Trigger on "we call it a customer here and an account there", "this model is used by everything", "what are our bounded contexts". Do not use for database schema design — see the data-modeling skill; for splitting into deployable services, see the microservices skill.
 metadata:
   category: development
   version: 1.0.0

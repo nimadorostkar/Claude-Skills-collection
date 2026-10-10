@@ -1,6 +1,6 @@
 ---
 name: java-kotlin
-description: Use when writing modern Java (17+) or Kotlin on the JVM. Covers records, sealed interfaces, pattern matching, coroutines, null safety, and JVM performance and memory tuning.
+description: Use when writing modern Java (17+) or Kotlin on the JVM. Covers records, sealed interfaces, pattern matching, coroutines, null safety, and JVM performance and memory tuning. Trigger on "migrate this off java 8 style", "convert this to kotlin coroutines", "jvm keeps running out of memory", "gc pauses are killing latency". Do not use for Spring wiring, transactions, or JPA — see the spring-boot skill.
 metadata:
   category: languages
   version: 1.0.0

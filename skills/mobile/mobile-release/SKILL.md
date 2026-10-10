@@ -1,6 +1,6 @@
 ---
 name: mobile-release
-description: Use when preparing a mobile app for release. Covers versioning, signing, staged rollout, crash monitoring, store review requirements, and rollback when an update goes wrong.
+description: Use when preparing a mobile app for release. Covers versioning, signing, staged rollout, crash monitoring, store review requirements, and rollback when an update goes wrong. Trigger on "ready to submit to the app store", "app got rejected in review", "crash rate spiked after the update", "set up a staged rollout". Do not use for general CI pipeline design — see the ci-cd skill.
 metadata:
   category: mobile
   version: 1.0.0

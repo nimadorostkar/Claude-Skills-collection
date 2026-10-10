@@ -4,11 +4,37 @@ Skills are directories containing a `SKILL.md`. Installing one means putting tha
 
 ## Claude Code
 
+### As plugins (recommended)
+
+Every category is published as a plugin from this repository's marketplace. Install only the categories you work in:
+
+```
+/plugin install backend --marketplace nimadorostkar/Claude-Skills-collection
+/plugin install data --marketplace nimadorostkar/Claude-Skills-collection
+```
+
+On Claude Code older than 2.1.275, add the marketplace first, then install by name:
+
+```
+/plugin marketplace add nimadorostkar/Claude-Skills-collection
+/plugin install backend@claude-skills
+```
+
+The plugin names are the category directory names: `languages`, `development`, `backend`, `frontend`, `mobile`, `devops`, `data`, `security`, `testing`, `ai`, `agent-tooling`, `finance`, `documents`, `design`, `writing`, `productivity`, `business`. Update with `/plugin marketplace update claude-skills`; remove with `/plugin uninstall backend@claude-skills`.
+
+### From a clone
+
+Clone once, then copy or symlink skills into `~/.claude/skills`:
+
+```bash
+git clone https://github.com/nimadorostkar/Claude-Skills-collection.git claude-skills
+cd claude-skills
+mkdir -p ~/.claude/skills
+```
 
 **A single skill** — copy it in:
 
 ```bash
-mkdir -p ~/.claude/skills
 cp -r skills/ai/rag ~/.claude/skills/
 ```
 
@@ -49,7 +75,7 @@ Ask the agent something that should trigger the skill, and check that it loads:
 > this query is slow, here's the EXPLAIN output
 ```
 
-If it does not load, the description is not matching your phrasing. That is a bug — [open an issue](https://github.com/nimadorostkar/claude-skills/issues) with the exact phrasing you used.
+If it does not load, the description is not matching your phrasing. That is a bug — [open an issue](https://github.com/nimadorostkar/Claude-Skills-collection/issues) with the exact phrasing you used.
 
 ## Other agents
 
@@ -75,7 +101,8 @@ def load_skill(user_request: str) -> str | None:
 ## Updating
 
 ```bash
-cd claude-skills && git pull
+cd claude-skills && git pull                     # a clone
+/plugin marketplace update claude-skills         # plugins, from inside Claude Code
 ```
 
 Symlinked skills update immediately. Copied skills do not — re-copy them, or use symlinks.

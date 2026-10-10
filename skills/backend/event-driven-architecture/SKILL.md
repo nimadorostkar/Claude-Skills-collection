@@ -1,6 +1,6 @@
 ---
 name: event-driven-architecture
-description: Use when designing systems around events and message queues. Covers event schema design, delivery guarantees, idempotent consumers, ordering, dead-letter handling, and event sourcing.
+description: Use when designing systems around events and message queues. Covers event schema design, delivery guarantees, idempotent consumers, ordering, dead-letter handling, and event sourcing. Trigger on "should we use kafka", "messages are processed twice", "consumer is stuck", "design the event schema". Do not use for a simple task queue of background work — see the background-jobs skill; for whether to split into services, see the microservices skill.
 metadata:
   category: backend
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: backtesting
-description: Use when testing a trading strategy on historical data. Covers the biases that make a backtest lie, realistic costs, walk-forward validation, and the statistics that distinguish an edge from a coincidence.
+description: Use when testing a trading strategy on historical data. Covers the biases that make a backtest lie, realistic costs, walk-forward validation, and the statistics that distinguish an edge from a coincidence. Trigger on "backtest this strategy", "my backtest looks too good to be true", "why does live trading underperform my backtest". Do not use for testing whether a single signal is statistically significant — see the quantitative-analysis skill.
 metadata:
   category: finance
   version: 1.0.0

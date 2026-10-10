@@ -1,6 +1,6 @@
 ---
 name: spark
-description: Use when building distributed data pipelines with Apache Spark. Covers partitioning, shuffles, skew, joins, caching, and reading the Spark UI to find why a job is slow.
+description: Use when building distributed data pipelines with Apache Spark. Covers partitioning, shuffles, skew, joins, caching, and reading the Spark UI to find why a job is slow. Trigger on "spark job is slow", "one task takes forever", "executor out of memory", "too many small files". Do not use for data that fits on one machine — see the pandas skill.
 metadata:
   category: data
   version: 1.0.0

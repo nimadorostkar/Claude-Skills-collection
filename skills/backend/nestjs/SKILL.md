@@ -1,6 +1,6 @@
 ---
 name: nestjs
-description: Use when building NestJS services. Covers module structure, providers and scopes, validation pipes, guards and interceptors, TypeORM/Prisma integration, and testing.
+description: Use when building NestJS services. Covers module structure, providers and scopes, validation pipes, guards and interceptors, TypeORM/Prisma integration, and testing. Trigger on "nest can't resolve dependencies", "add a guard for auth", "validation pipe not working", "test my nest module". Do not use for API contract decisions like pagination or versioning — see the api-design skill.
 metadata:
   category: backend
   version: 1.0.0

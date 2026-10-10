@@ -1,6 +1,6 @@
 ---
 name: trade-journal
-description: Use when reviewing trading performance and decisions. Covers what to record, separating process from outcome, identifying real patterns in your own behavior, and turning a review into a rule change.
+description: Use when reviewing trading performance and decisions. Covers what to record, separating process from outcome, identifying real patterns in your own behavior, and turning a review into a rule change. Trigger on "review my trades from last month", "help me set up a trading journal", "i keep losing on the same kind of trade". Do not use for writing the risk rules themselves — see the risk-management skill.
 metadata:
   category: finance
   version: 1.0.0

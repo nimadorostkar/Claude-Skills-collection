@@ -1,6 +1,6 @@
 ---
 name: angular
-description: Use when building Angular applications. Covers standalone components, signals, RxJS discipline, change detection, dependency injection, and the patterns that keep large Angular codebases fast.
+description: Use when building Angular applications. Covers standalone components, signals, RxJS discipline, change detection, dependency injection, and the patterns that keep large Angular codebases fast. Trigger on "subscription memory leak", "migrate to standalone components", "change detection is slow", "signals or rxjs for this state". Do not use for app-wide folder and state structure — see the frontend-architecture skill.
 metadata:
   category: frontend
   version: 1.0.0

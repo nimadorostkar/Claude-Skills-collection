@@ -1,6 +1,6 @@
 ---
 name: git-workflow
-description: Use for branching, committing, history repair, and release hygiene. Covers atomic commits, rebase versus merge, bisect, reflog recovery, and undoing mistakes safely.
+description: Use for branching, committing, history repair, and release hygiene. Covers atomic commits, rebase versus merge, bisect, reflog recovery, and undoing mistakes safely. Trigger on "undo my last commit", "i messed up a rebase", "squash these commits", "find which commit broke this". Do not use for pipeline and deploy automation — see the ci-cd skill.
 metadata:
   category: development
   version: 1.0.0

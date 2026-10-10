@@ -1,6 +1,6 @@
 ---
 name: brand-guidelines
-description: Use when applying or documenting a brand identity. Covers extracting a system from existing assets, documenting colour, type, and voice, and applying a brand consistently across new work.
+description: Use when applying or documenting a brand identity. Covers extracting a system from existing assets, documenting colour, type, and voice, and applying a brand consistently across new work. Trigger on "make this on-brand", "write up our brand guidelines", "pull a style guide out of these assets", "does this match our brand". Do not use for building token-based light and dark themes — see the theming skill.
 metadata:
   category: design
   version: 1.0.0

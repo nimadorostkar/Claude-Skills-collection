@@ -1,6 +1,6 @@
 ---
 name: llm-cost-optimization
-description: Use when an LLM feature costs too much. Covers prompt caching, context reduction, model routing, batching, output limits, and finding where the tokens actually go.
+description: Use when an LLM feature costs too much. Covers prompt caching, context reduction, model routing, batching, output limits, and finding where the tokens actually go. Trigger on "our openai bill is too high", "llm costs are out of control", "where are all these tokens going", "set up prompt caching". Do not use for cloud infrastructure spend — see the aws-cost-optimization skill; for choosing a cheaper model, see the model-selection skill.
 metadata:
   category: ai
   version: 1.0.0

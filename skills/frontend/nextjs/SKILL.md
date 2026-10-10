@@ -1,6 +1,6 @@
 ---
 name: nextjs
-description: Use when building Next.js applications with the App Router. Covers server and client component boundaries, data fetching and caching, server actions, streaming, and rendering strategy.
+description: Use when building Next.js applications with the App Router. Covers server and client component boundaries, data fetching and caching, server actions, streaming, and rendering strategy. Trigger on "server or client component", "page shows stale data after a mutation", "route is unexpectedly dynamic", "server action not revalidating". Do not use for hooks and re-render problems outside Next.js — see the react skill.
 metadata:
   category: frontend
   version: 1.0.0

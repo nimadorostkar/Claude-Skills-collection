@@ -16,7 +16,7 @@ This step is not optional and it is the one people skip. Most rejected contribut
 2. **Write the skill**, following [templates/SKILL.md](templates/SKILL.md) exactly.
 3. **Test the triggering.** Ten phrasings that *should* load it, five that should not. If fewer than eight of ten trigger, the description is wrong — fix it before anything else. Content quality is irrelevant if the skill never loads.
 4. **Run the baseline requests again**, with the skill loaded. Show the difference in the pull request.
-5. **Validate.** `python scripts/validate.py` must pass with no errors.
+5. **Validate and index.** `python scripts/validate.py` must pass with no errors (it needs `pip install pyyaml`). Then run `python scripts/build_index.py` and commit what it changes — the catalog, category indexes, and plugin marketplace are generated, never edited by hand.
 6. **Open the PR** with the before/after evidence.
 
 ## What gets accepted

@@ -1,6 +1,6 @@
 ---
 name: secure-coding
-description: Use when writing code that handles untrusted input, authentication, or sensitive data. Covers injection prevention, authentication and session handling, authorization, cryptography, and the defaults that make code safe by construction.
+description: Use when writing code that handles untrusted input, authentication, or sensitive data. Covers injection prevention, authentication and session handling, authorization, cryptography, and the defaults that make code safe by construction. Trigger on "prevent sql injection", "how should i hash passwords", "check permissions on this endpoint". Do not use for auditing a finished change — see the security-review skill; for storing credentials, see the secrets-management skill.
 metadata:
   category: security
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: lead-research
-description: Use when researching prospects or accounts before outreach. Covers qualification, finding the trigger event, identifying the right contact, and producing a brief that makes outreach specific rather than generic.
+description: Use when researching prospects or accounts before outreach. Covers qualification, finding the trigger event, identifying the right contact, and producing a brief that makes outreach specific rather than generic. Trigger on "research this company before my sales call", "qualify these inbound leads", "build a target account list". Do not use for analyzing rival products — see the competitive-analysis skill.
 metadata:
   category: business
   version: 1.0.0

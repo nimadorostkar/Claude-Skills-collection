@@ -7,7 +7,21 @@ A skill's guidance is an interface. Changing what a skill tells an agent to do i
 
 ## [Unreleased]
 
-Nothing yet.
+### Added
+
+- **Claude Code plugin marketplace.** `.claude-plugin/marketplace.json` publishes each category as a plugin: `/plugin install backend --marketplace nimadorostkar/Claude-Skills-collection`.
+- `scripts/build_index.py`, which generates `docs/catalog.md`, `categories/*.md`, and the marketplace from the skills. CI fails if they are stale.
+- Issue templates for a skill that does not trigger and for wrong guidance, and a pull request template with the before/after evidence checklist.
+
+### Changed
+
+- **Every description now carries trigger phrasings and a boundary.** All 137 gain a `Trigger on "…"` sentence in the user's own words and, where a neighbour is confusable, `Do not use for … — see the … skill`, as `docs/standards.md` has always required. The first two sentences of each are unchanged.
+- `scripts/validate.py` parses frontmatter as real YAML and now also checks name format and length, description length and placeholders, that every `see the … skill` boundary names a real skill, tag count and case, and links in the README, docs, category indexes, and examples.
+- Installation instructions lead with the plugin route; clone URLs point at the actual repository.
+
+### Fixed
+
+- `network-troubleshooting` had invalid YAML frontmatter — an unquoted `: ` in its description — so agents that parse frontmatter strictly could not load it.
 
 ## [1.0.0] — 2026-07-14
 

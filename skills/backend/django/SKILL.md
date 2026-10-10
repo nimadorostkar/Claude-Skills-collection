@@ -1,6 +1,6 @@
 ---
 name: django
-description: Use when building Django applications. Covers ORM query performance, model design, migrations, Django REST Framework, security defaults, and testing.
+description: Use when building Django applications. Covers ORM query performance, model design, migrations, Django REST Framework, security defaults, and testing. Trigger on "django view is slow", "too many queries from the orm", "add a drf endpoint", "migration on a big table". Do not use for API contract decisions independent of Django — see the api-design skill.
 metadata:
   category: backend
   version: 1.0.0

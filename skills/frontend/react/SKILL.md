@@ -1,6 +1,6 @@
 ---
 name: react
-description: Use when writing or reviewing React. Covers component and state design, hook correctness, memoization that is actually needed, data fetching, and the render behavior behind most React performance problems.
+description: Use when writing or reviewing React. Covers component and state design, hook correctness, memoization that is actually needed, data fetching, and the render behavior behind most React performance problems. Trigger on "component re-renders too much", "state is stale in my useeffect", "do i need usememo here", "where should this state live". Do not use for server components and App Router caching — see the nextjs skill; for mobile, see the react-native skill.
 metadata:
   category: frontend
   version: 1.0.0

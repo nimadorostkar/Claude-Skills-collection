@@ -1,6 +1,6 @@
 ---
 name: vue
-description: Use when building Vue 3 applications. Covers the Composition API, reactivity fundamentals, composables, Pinia state management, and the reactivity mistakes that cause silent update failures.
+description: Use when building Vue 3 applications. Covers the Composition API, reactivity fundamentals, composables, Pinia state management, and the reactivity mistakes that cause silent update failures. Trigger on "value changes but the view doesn't update", "lost reactivity after destructuring", "write a composable", "set up pinia". Do not use for app-wide folder and state structure — see the frontend-architecture skill.
 metadata:
   category: frontend
   version: 1.0.0

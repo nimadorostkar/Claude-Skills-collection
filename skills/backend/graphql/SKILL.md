@@ -1,6 +1,6 @@
 ---
 name: graphql
-description: Use when designing or operating a GraphQL API. Covers schema design, resolver performance and DataLoader batching, query cost limiting, error handling, and federation.
+description: Use when designing or operating a GraphQL API. Covers schema design, resolver performance and DataLoader batching, query cost limiting, error handling, and federation. Trigger on "graphql query is slow", "n+1 in my resolvers", "set up dataloader", "limit query depth on our graphql endpoint". Do not use for REST endpoint design — see the api-design skill.
 metadata:
   category: backend
   version: 1.0.0

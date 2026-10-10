@@ -1,6 +1,6 @@
 ---
 name: site-reliability
-description: Use when establishing reliability practice. Covers SLOs and error budgets, capacity planning, graceful degradation, load shedding, retry and timeout policy, and the arithmetic of availability.
+description: Use when establishing reliability practice. Covers SLOs and error budgets, capacity planning, graceful degradation, load shedding, retry and timeout policy, and the arithmetic of availability. Trigger on "what slo should we set", "how many nines can we promise", "retries are causing a retry storm". Do not use for instrumentation and alert wiring — see the observability skill; for injecting faults to test failure paths, see the chaos-engineering skill.
 metadata:
   category: devops
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: word-documents
-description: Use when creating, reading, or editing Word documents (.docx). Covers document generation with styles and structure, extracting content, find-and-replace, tracked changes, and templates.
+description: Use when creating, reading, or editing Word documents (.docx). Covers document generation with styles and structure, extracting content, find-and-replace, tracked changes, and templates. Trigger on "generate a word document", "find and replace in this docx", "fill this word template", "accept the tracked changes". Do not use for converting a docx to Markdown or PDF — see the document-conversion skill.
 metadata:
   category: documents
   version: 1.0.0

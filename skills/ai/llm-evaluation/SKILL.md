@@ -1,6 +1,6 @@
 ---
 name: llm-evaluation
-description: Use when measuring the quality of an LLM feature. Covers building an evaluation set, choosing metrics, LLM-as-judge and its pitfalls, regression testing prompts, and evaluating in production.
+description: Use when measuring the quality of an LLM feature. Covers building an evaluation set, choosing metrics, LLM-as-judge and its pitfalls, regression testing prompts, and evaluating in production. Trigger on "did my prompt change make it better", "build an eval set", "can i use an llm as a judge", "users say the answers got worse". Do not use for rewriting the prompt itself — see the prompt-engineering skill; for picking between models, see the model-selection skill.
 metadata:
   category: ai
   version: 1.0.0

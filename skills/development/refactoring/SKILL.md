@@ -1,6 +1,6 @@
 ---
 name: refactoring
-description: Use when improving the structure of code without changing its behavior. Covers safe refactoring sequences, characterization tests, and knowing when to stop.
+description: Use when improving the structure of code without changing its behavior. Covers safe refactoring sequences, characterization tests, and knowing when to stop. Trigger on "clean this up without changing behavior", "refactor this before i add the feature", "this module is impossible to test", "extract this into a function". Do not use for migrating a whole legacy system — see the legacy-modernization skill.
 metadata:
   category: development
   version: 1.0.0

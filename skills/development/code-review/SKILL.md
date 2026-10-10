@@ -1,6 +1,6 @@
 ---
 name: code-review
-description: Use when reviewing a pull request, diff, or branch. Produces severity-ranked findings covering correctness, security, performance, and maintainability, with concrete fixes rather than opinions.
+description: Use when reviewing a pull request, diff, or branch. Produces severity-ranked findings covering correctness, security, performance, and maintainability, with concrete fixes rather than opinions. Trigger on "review this pr", "look over my diff before i push", "is this branch ready to merge", "anything wrong with this change". Do not use for a vulnerability-focused audit — see the security-review skill; for feature release readiness, see the qa-review skill.
 metadata:
   category: development
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: realtime-websockets
-description: Use when building realtime features with WebSockets or Server-Sent Events. Covers protocol choice, connection lifecycle, reconnection and backfill, scaling across instances, and backpressure.
+description: Use when building realtime features with WebSockets or Server-Sent Events. Covers protocol choice, connection lifecycle, reconnection and backfill, scaling across instances, and backpressure. Trigger on "add live updates", "websocket keeps disconnecting", "websockets or sse", "scale socket.io across servers". Do not use for message queues between backend services — see the event-driven-architecture skill.
 metadata:
   category: backend
   version: 1.0.0

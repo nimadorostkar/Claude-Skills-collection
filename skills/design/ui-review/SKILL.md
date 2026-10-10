@@ -1,6 +1,6 @@
 ---
 name: ui-review
-description: Use when critiquing an interface design. Covers hierarchy, affordance, consistency, states, and delivering feedback that changes the design rather than describing taste.
+description: Use when critiquing an interface design. Covers hierarchy, affordance, consistency, states, and delivering feedback that changes the design rather than describing taste. Trigger on "critique this design", "what's wrong with this mockup", "this screen feels off", "review this ui before handoff". Do not use for checking a build matches the design — see the visual-qa skill; for a WCAG audit, see the accessibility skill.
 metadata:
   category: design
   version: 1.0.0

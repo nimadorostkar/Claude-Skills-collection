@@ -1,6 +1,6 @@
 ---
 name: agent-design
-description: Use when building an LLM agent that uses tools over multiple steps. Covers tool design, the agent loop, error recovery, termination, human checkpoints, and knowing when an agent is the wrong architecture.
+description: Use when building an LLM agent that uses tools over multiple steps. Covers tool design, the agent loop, error recovery, termination, human checkpoints, and knowing when an agent is the wrong architecture. Trigger on "my agent keeps looping", "agent calls the wrong tool", "build an agent that can use our api". Do not use for delegating work to a subagent — see the subagents skill; for building the MCP server that exposes tools, see the mcp-server skill.
 metadata:
   category: ai
   version: 1.0.0

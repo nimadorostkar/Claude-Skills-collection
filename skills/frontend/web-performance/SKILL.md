@@ -1,6 +1,6 @@
 ---
 name: web-performance
-description: Use when improving page load or runtime performance. Covers Core Web Vitals, bundle and asset optimization, rendering strategy, caching headers, and measuring on real hardware rather than a fast laptop.
+description: Use when improving page load or runtime performance. Covers Core Web Vitals, bundle and asset optimization, rendering strategy, caching headers, and measuring on real hardware rather than a fast laptop. Trigger on "page loads slowly", "lcp is failing", "bundle is too big", "layout shift on load". Do not use for server load capacity — see the performance-testing skill; for slow queries behind the page, see the database-performance skill.
 metadata:
   category: frontend
   version: 1.0.0

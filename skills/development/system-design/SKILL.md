@@ -1,6 +1,6 @@
 ---
 name: system-design
-description: Use when designing a system or service before implementation. Produces a design covering data model, API surface, failure modes, scaling limits, and the trade-offs that were actually decided.
+description: Use when designing a system or service before implementation. Produces a design covering data model, API surface, failure modes, scaling limits, and the trade-offs that were actually decided. Trigger on "design a system for", "will this hold at 10x traffic", "monolith or microservices". Do not use for recording a decision already made — see the architecture-decisions skill; for cloud network and account layout, see the cloud-architecture skill.
 metadata:
   category: development
   version: 1.0.0

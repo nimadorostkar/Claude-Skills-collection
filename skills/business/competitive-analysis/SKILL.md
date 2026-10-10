@@ -1,6 +1,6 @@
 ---
 name: competitive-analysis
-description: Use when analyzing competitors. Covers gathering evidence rather than opinion, positioning and pricing analysis, identifying real differentiation, and producing a conclusion that changes a decision.
+description: Use when analyzing competitors. Covers gathering evidence rather than opinion, positioning and pricing analysis, identifying real differentiation, and producing a conclusion that changes a decision. Trigger on "how do we compare to competitors", "analyze competitor pricing", "a competitor just launched a cheaper plan, how do we respond". Do not use for researching one prospect account — see the lead-research skill.
 metadata:
   category: business
   version: 1.0.0

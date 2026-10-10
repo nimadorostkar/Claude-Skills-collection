@@ -1,6 +1,6 @@
 ---
 name: microservices
-description: Use when decomposing a system into services, or deciding whether to. Covers service boundaries, inter-service communication, distributed data, saga patterns, and the operational cost of the network.
+description: Use when decomposing a system into services, or deciding whether to. Covers service boundaries, inter-service communication, distributed data, saga patterns, and the operational cost of the network. Trigger on "should we split the monolith", "extract this into a service", "our services are too coupled". Do not use for broker and event design — see the event-driven-architecture skill; for pre-build system design, see the system-design skill.
 metadata:
   category: backend
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: simple-design
-description: Use when code has grown hard to hold in your head. Applies complexity limits, dependency reduction, and encapsulation to bring functions and modules back under a readable ceiling.
+description: Use when code has grown hard to hold in your head. Applies complexity limits, dependency reduction, and encapsulation to bring functions and modules back under a readable ceiling. Trigger on "this function is too complex", "i can't follow this file anymore", "every change here breaks something else", "is this abstraction worth it". Do not use for a step-by-step behavior-preserving restructure — see the refactoring skill.
 metadata:
   category: development
   version: 1.0.0

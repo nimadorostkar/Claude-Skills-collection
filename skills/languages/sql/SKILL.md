@@ -1,6 +1,6 @@
 ---
 name: sql
-description: Use when writing or optimizing SQL. Covers query planning, indexing strategy, window functions, CTEs, transaction isolation, and reading EXPLAIN output.
+description: Use when writing or optimizing SQL. Covers query planning, indexing strategy, window functions, CTEs, transaction isolation, and reading EXPLAIN output. Trigger on "this query is slow", "how do i read this explain plan", "write a window function for running totals", "what isolation level should i use". Do not use when the whole database is the bottleneck under load — see the database-performance skill; for Postgres-specific operations, see the postgres skill.
 metadata:
   category: languages
   version: 1.0.0

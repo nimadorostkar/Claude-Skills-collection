@@ -1,6 +1,6 @@
 ---
 name: observability
-description: Use when instrumenting a system or when an incident cannot be diagnosed from existing telemetry. Covers structured logging, metrics, distributed tracing, SLOs, and alerts that are worth waking someone for.
+description: Use when instrumenting a system or when an incident cannot be diagnosed from existing telemetry. Covers structured logging, metrics, distributed tracing, SLOs, and alerts that are worth waking someone for. Trigger on "we couldn't tell what happened from the logs", "add tracing to our services", "too many alerts nobody reads". Do not use for SLO targets and error budgets — see the site-reliability skill; for handling a live outage, see the incident-response skill.
 metadata:
   category: devops
   version: 1.0.0

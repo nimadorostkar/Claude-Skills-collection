@@ -1,6 +1,6 @@
 ---
 name: shell
-description: Use when writing Bash scripts or command-line automation. Covers strict mode, safe quoting, argument parsing, trap-based cleanup, portability, and ShellCheck-clean scripts.
+description: Use when writing Bash scripts or command-line automation. Covers strict mode, safe quoting, argument parsing, trap-based cleanup, portability, and ShellCheck-clean scripts. Trigger on "write a bash script to", "shellcheck is complaining", "my script breaks on filenames with spaces", "works on my machine but fails in ci". Do not use for designing a full CLI tool's interface — see the cli-development skill; for pipeline structure, see the ci-cd skill.
 metadata:
   category: languages
   version: 1.0.0

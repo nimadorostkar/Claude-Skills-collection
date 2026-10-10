@@ -1,6 +1,6 @@
 ---
 name: repository-exploration
-description: Use when orienting in an unfamiliar codebase. Produces a map of the architecture, entry points, data flow, conventions, and the parts most likely to surprise you — before any code is changed.
+description: Use when orienting in an unfamiliar codebase. Produces a map of the architecture, entry points, data flow, conventions, and the parts most likely to surprise you — before any code is changed. Trigger on "help me understand this codebase", "where do i start in this repo", "how is this project structured", "i just inherited this service". Do not use for writing the CLAUDE.md itself — see the agent-instructions skill.
 metadata:
   category: development
   version: 1.0.0

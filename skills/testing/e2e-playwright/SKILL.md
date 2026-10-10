@@ -1,6 +1,6 @@
 ---
 name: e2e-playwright
-description: Use when writing end-to-end browser tests with Playwright. Covers resilient locators, auto-waiting, network interception, authentication reuse, parallelization, and eliminating flakiness.
+description: Use when writing end-to-end browser tests with Playwright. Covers resilient locators, auto-waiting, network interception, authentication reuse, parallelization, and eliminating flakiness. Trigger on "write playwright tests", "e2e test is flaky", "replace our cypress suite", "reuse login state in playwright". Do not use for manually checking a feature in a browser — see the web-app-testing skill; for screenshot diffs, see the visual-qa skill.
 metadata:
   category: testing
   version: 1.0.0

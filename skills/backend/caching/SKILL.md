@@ -1,6 +1,6 @@
 ---
 name: caching
-description: Use when adding or debugging a cache. Covers cache placement, invalidation strategies, stampede protection, TTL selection, and the consistency you are trading away.
+description: Use when adding or debugging a cache. Covers cache placement, invalidation strategies, stampede protection, TTL selection, and the consistency you are trading away. Trigger on "add redis caching", "users are seeing stale data", "cache stampede after expiry", "should we cache this". Do not use for browser caching headers and page load — see the web-performance skill; for a query that is slow at the source, see the database-performance skill.
 metadata:
   category: backend
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: llm-integration
-description: Use when integrating an LLM API into an application. Covers streaming, retries and rate limits, timeouts, caching, fallback across providers, and the production concerns that a tutorial integration ignores.
+description: Use when integrating an LLM API into an application. Covers streaming, retries and rate limits, timeouts, caching, fallback across providers, and the production concerns that a tutorial integration ignores. Trigger on "add an llm to our app", "getting 429 rate limit errors from the api", "stream the response to the frontend". Do not use for reducing token spend — see the llm-cost-optimization skill; for parsing JSON from the model, see the structured-output skill.
 metadata:
   category: ai
   version: 1.0.0

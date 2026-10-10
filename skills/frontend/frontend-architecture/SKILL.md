@@ -1,6 +1,6 @@
 ---
 name: frontend-architecture
-description: Use when structuring a frontend codebase. Covers module and folder organization, state boundaries, data-fetching layers, build configuration, and keeping a large application navigable.
+description: Use when structuring a frontend codebase. Covers module and folder organization, state boundaries, data-fetching layers, build configuration, and keeping a large application navigable. Trigger on "how should i structure this frontend", "our components folder is a mess", "where should data fetching live", "set up a frontend monorepo". Do not use for component-level state and hooks — see the react skill.
 metadata:
   category: frontend
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: agent-instructions
-description: Use when writing project instructions for a coding agent (CLAUDE.md, AGENTS.md, or equivalent). Covers what belongs in them, what does not, structure, and keeping them accurate as the project changes.
+description: Use when writing project instructions for a coding agent (CLAUDE.md, AGENTS.md, or equivalent). Covers what belongs in them, what does not, structure, and keeping them accurate as the project changes. Trigger on "write a claude.md for this repo", "set up agents.md", "the agent keeps running the wrong test command". Do not use for rules that must hold every time — see the hooks skill; for notes the agent writes itself, see the agent-memory skill.
 metadata:
   category: agent-tooling
   version: 1.0.0

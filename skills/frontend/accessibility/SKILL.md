@@ -1,6 +1,6 @@
 ---
 name: accessibility
-description: Use when auditing or building accessible interfaces. Covers WCAG 2.2 AA conformance, semantic HTML, keyboard navigation, screen-reader behavior, focus management, and contrast.
+description: Use when auditing or building accessible interfaces. Covers WCAG 2.2 AA conformance, semantic HTML, keyboard navigation, screen-reader behavior, focus management, and contrast. Trigger on "is this accessible", "screen reader doesn't announce this", "can't reach the menu with the keyboard", "fix the axe findings". Do not use for visual design critique — see the ui-review skill.
 metadata:
   category: frontend
   version: 1.0.0

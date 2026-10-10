@@ -1,6 +1,6 @@
 ---
 name: python
-description: Use when writing, reviewing, or modernizing Python 3.11+ code. Produces fully type-annotated modules, async I/O, dataclasses and protocols, pytest suites, and a lint/type gate built on ruff and mypy --strict.
+description: Use when writing, reviewing, or modernizing Python 3.11+ code. Produces fully type-annotated modules, async I/O, dataclasses and protocols, pytest suites, and a lint/type gate built on ruff and mypy --strict. Trigger on "add type hints to this", "mypy is complaining", "convert this to asyncio", "set up pytest for this project". Do not use for FastAPI app structure — see the fastapi skill; for dataframe work, see the pandas skill.
 metadata:
   category: languages
   version: 1.0.0

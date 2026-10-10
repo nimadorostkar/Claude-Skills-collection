@@ -1,6 +1,6 @@
 ---
 name: technical-documentation
-description: Use when writing developer-facing documentation. Covers the four documentation types and choosing between them, writing a README, API reference, and tutorials that work.
+description: Use when writing developer-facing documentation. Covers the four documentation types and choosing between them, writing a README, API reference, and tutorials that work. Trigger on "write a readme for this repo", "document this api", "write a getting started guide", "nobody can follow our docs". Do not use for release notes — see the changelog skill; for CLAUDE.md or AGENTS.md, see the agent-instructions skill.
 metadata:
   category: writing
   version: 1.0.0

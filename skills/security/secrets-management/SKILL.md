@@ -1,6 +1,6 @@
 ---
 name: secrets-management
-description: Use when handling credentials, API keys, and certificates. Covers secret storage, rotation, injection into applications, detection of leaked secrets, and what to do when one is exposed.
+description: Use when handling credentials, API keys, and certificates. Covers secret storage, rotation, injection into applications, detection of leaked secrets, and what to do when one is exposed. Trigger on "i committed an api key", "where should we store secrets", "rotate the database password", "scan the repo for leaked keys". Do not use for vulnerabilities in code logic — see the security-review skill.
 metadata:
   category: security
   version: 1.0.0

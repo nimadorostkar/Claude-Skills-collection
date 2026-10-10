@@ -1,6 +1,6 @@
 ---
 name: hooks
-description: Use when automating agent behavior with lifecycle hooks. Covers hook events, deterministic enforcement of rules the model should not be trusted to remember, and avoiding hooks that make an agent unusable.
+description: Use when automating agent behavior with lifecycle hooks. Covers hook events, deterministic enforcement of rules the model should not be trusted to remember, and avoiding hooks that make an agent unusable. Trigger on "run prettier after every edit", "block rm -rf", "claude keeps forgetting to run tests". Do not use for guidance the agent should usually follow — see the agent-instructions skill; for a workflow run on demand, see the slash-commands skill.
 metadata:
   category: agent-tooling
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: swift
-description: Use when writing Swift for iOS, macOS, or server-side. Covers value semantics, optionals, protocol-oriented design, structured concurrency with async/await and actors, and SwiftUI state management.
+description: Use when writing Swift for iOS, macOS, or server-side. Covers value semantics, optionals, protocol-oriented design, structured concurrency with async/await and actors, and SwiftUI state management. Trigger on "migrate this completion handler to async/await", "sendable warnings under strict concurrency", "retain cycle in my closure", "where should this state live". Do not use for app architecture, navigation, or App Store submission — see the ios skill.
 metadata:
   category: languages
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: earnings-analysis
-description: Use when analyzing an earnings report or the market's reaction to one. Covers what actually matters in the release, the reaction as information, guidance versus results, and post-earnings drift.
+description: Use when analyzing an earnings report or the market's reaction to one. Covers what actually matters in the release, the reaction as information, guidance versus results, and post-earnings drift. Trigger on "should i hold through earnings", "stock beat estimates but dropped, why", "break down this earnings report". Do not use for reading the chart setup into the report — see the technical-analysis skill.
 metadata:
   category: finance
   version: 1.0.0

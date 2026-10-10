@@ -1,6 +1,6 @@
 ---
 name: resume
-description: Use when writing or tailoring a CV or resume. Covers evidence over adjectives, tailoring to a specific role without lying, structure, and the specific patterns that get a resume discarded.
+description: Use when writing or tailoring a CV or resume. Covers evidence over adjectives, tailoring to a specific role without lying, structure, and the specific patterns that get a resume discarded. Trigger on "rewrite my resume", "tailor my cv to this job posting", "my resume gets no responses".
 metadata:
   category: business
   version: 1.0.0

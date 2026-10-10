@@ -1,6 +1,6 @@
 ---
 name: architecture-decisions
-description: Use when a significant technical decision needs to be recorded. Produces Architecture Decision Records that capture context, options, the decision, and its consequences — so the reasoning survives the people who made it.
+description: Use when a significant technical decision needs to be recorded. Produces Architecture Decision Records that capture context, options, the decision, and its consequences — so the reasoning survives the people who made it. Trigger on "write an adr for this", "document why we chose postgres", "record this decision", "nobody remembers why we did this". Do not use for designing the system itself — see the system-design skill.
 metadata:
   category: development
   version: 1.0.0

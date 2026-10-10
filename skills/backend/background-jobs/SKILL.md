@@ -1,6 +1,6 @@
 ---
 name: background-jobs
-description: Use when designing asynchronous job processing. Covers queue selection, idempotency, retry and backoff policy, scheduling, poison messages, and observability for work that happens outside the request.
+description: Use when designing asynchronous job processing. Covers queue selection, idempotency, retry and backoff policy, scheduling, poison messages, and observability for work that happens outside the request. Trigger on "move this to a background job", "emails are being sent twice", "the queue is stuck", "retry failed jobs with backoff". Do not use for event schemas other teams consume — see the event-driven-architecture skill.
 metadata:
   category: backend
   version: 1.0.0

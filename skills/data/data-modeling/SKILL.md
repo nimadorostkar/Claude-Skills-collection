@@ -1,6 +1,6 @@
 ---
 name: data-modeling
-description: Use when designing a schema. Covers normalization and when to break it, choosing keys, modeling time and history, soft deletes, multi-tenancy, and schema decisions that are expensive to reverse.
+description: Use when designing a schema. Covers normalization and when to break it, choosing keys, modeling time and history, soft deletes, multi-tenancy, and schema decisions that are expensive to reverse. Trigger on "design the schema for this", "model multi-tenancy", "soft delete or hard delete", "keep history of changes". Do not use for speeding up queries — see the database-performance skill; for domain vocabulary in code, see the domain-modeling skill.
 metadata:
   category: data
   version: 1.0.0

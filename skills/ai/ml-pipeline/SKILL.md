@@ -1,6 +1,6 @@
 ---
 name: ml-pipeline
-description: Use when building or operating a machine learning pipeline. Covers feature engineering, training reproducibility, train/serve skew, deployment, monitoring for drift, and retraining.
+description: Use when building or operating a machine learning pipeline. Covers feature engineering, training reproducibility, train/serve skew, deployment, monitoring for drift, and retraining. Trigger on "model worked offline but fails in production", "training runs aren't reproducible", "detect data drift", "set up retraining". Do not use for adapting an LLM with LoRA or fine-tuning — see the fine-tuning skill; for validating upstream data, see the data-quality skill.
 metadata:
   category: ai
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: agent-memory
-description: Use when an agent needs state that survives a session or a context compaction. Covers what to persist, file-based memory, structuring notes for retrieval, and preventing memory from becoming stale.
+description: Use when an agent needs state that survives a session or a context compaction. Covers what to persist, file-based memory, structuring notes for retrieval, and preventing memory from becoming stale. Trigger on "agent forgets everything between sessions", "agent keeps retrying the same failed approach". Do not use for trimming the current context window — see the context-engineering skill; for human-written project instructions, see the agent-instructions skill.
 metadata:
   category: agent-tooling
   version: 1.0.0

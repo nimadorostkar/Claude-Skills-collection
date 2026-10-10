@@ -1,6 +1,6 @@
 ---
 name: security-review
-description: Use when auditing code or a change for vulnerabilities. Produces severity-ranked findings with exploit paths and fixes, covering the OWASP Top 10, authorization, secrets, and dependency risk.
+description: Use when auditing code or a change for vulnerabilities. Produces severity-ranked findings with exploit paths and fixes, covering the OWASP Top 10, authorization, secrets, and dependency risk. Trigger on "security review this pr", "is this code vulnerable", "audit before we go public", "triage this pentest report". Do not use for writing new auth or input handling — see the secure-coding skill; for design-time risk, see the threat-modeling skill.
 metadata:
   category: security
   version: 1.0.0

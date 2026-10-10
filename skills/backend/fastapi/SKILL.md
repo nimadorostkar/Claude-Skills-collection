@@ -1,6 +1,6 @@
 ---
 name: fastapi
-description: Use when building APIs with FastAPI. Covers dependency injection, Pydantic v2 validation, async database access, authentication, background tasks, and testing.
+description: Use when building APIs with FastAPI. Covers dependency injection, Pydantic v2 validation, async database access, authentication, background tasks, and testing. Trigger on "fastapi endpoint is slow under load", "set up depends for the db session", "pydantic v2 validation error", "test my fastapi app". Do not use for API contract decisions like pagination or versioning — see the api-design skill.
 metadata:
   category: backend
   version: 1.0.0

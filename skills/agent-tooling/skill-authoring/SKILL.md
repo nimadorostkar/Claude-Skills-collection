@@ -1,6 +1,6 @@
 ---
 name: skill-authoring
-description: Use when writing a new skill for an AI agent. Covers scoping, description writing for reliable triggering, progressive disclosure, and the difference between a skill and a prompt.
+description: Use when writing a new skill for an AI agent. Covers scoping, description writing for reliable triggering, progressive disclosure, and the difference between a skill and a prompt. Trigger on "write a skill for", "turn this prompt into a skill", "create a skill.md", "how do i write a skill description". Do not use for auditing an existing skill or library — see the skill-review skill; for workflows the user invokes by name, see the slash-commands skill.
 metadata:
   category: agent-tooling
   version: 1.0.0

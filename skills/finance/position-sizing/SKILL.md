@@ -1,6 +1,6 @@
 ---
 name: position-sizing
-description: Use when deciding how large a position to take. Covers fixed-fractional risk, volatility-based sizing, the Kelly criterion and why to fractionalize it, and portfolio concentration limits.
+description: Use when deciding how large a position to take. Covers fixed-fractional risk, volatility-based sizing, the Kelly criterion and why to fractionalize it, and portfolio concentration limits. Trigger on "how much should i put in this trade", "how many shares should i buy", "should i use kelly sizing". Do not use for account-level drawdown limits and pre-trade rules — see the risk-management skill.
 metadata:
   category: finance
   version: 1.0.0

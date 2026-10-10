@@ -1,6 +1,6 @@
 ---
 name: mcp-server
-description: Use when building a Model Context Protocol server. Covers tool, resource, and prompt design, transport choice, authentication, error handling, and testing an MCP server against a real client.
+description: Use when building a Model Context Protocol server. Covers tool, resource, and prompt design, transport choice, authentication, error handling, and testing an MCP server against a real client. Trigger on "build an mcp server", "expose our api to claude", "the model keeps calling my mcp tool wrong". Do not use for packaging the server into a distributable plugin — see the plugin-development skill; for the agent loop that calls tools, see the agent-design skill.
 metadata:
   category: ai
   version: 1.0.0

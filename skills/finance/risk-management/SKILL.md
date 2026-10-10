@@ -1,6 +1,6 @@
 ---
 name: risk-management
-description: Use when defining or enforcing trading risk limits. Covers drawdown circuit breakers, exposure budgets, correlation risk, stop discipline, and pre-trade gates that prevent the worst decisions.
+description: Use when defining or enforcing trading risk limits. Covers drawdown circuit breakers, exposure budgets, correlation risk, stop discipline, and pre-trade gates that prevent the worst decisions. Trigger on "set up risk rules for my account", "i'm in a drawdown, should i cut size", "when should i stop trading for the day". Do not use for sizing a single trade — see the position-sizing skill.
 metadata:
   category: finance
   version: 1.0.0

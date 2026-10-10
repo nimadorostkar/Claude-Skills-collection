@@ -1,6 +1,6 @@
 ---
 name: terraform
-description: Use when managing infrastructure as code with Terraform or OpenTofu. Covers module design, state management, drift, plan review, secrets, and applying changes without destroying production.
+description: Use when managing infrastructure as code with Terraform or OpenTofu. Covers module design, state management, drift, plan review, secrets, and applying changes without destroying production. Trigger on "terraform plan wants to destroy my database", "state lock is stuck", "how to structure terraform modules", "terraform drift from the console". Do not use for AWS CDK code — see the aws-cdk skill; for designing the architecture itself, see the cloud-architecture skill.
 metadata:
   category: devops
   version: 1.0.0

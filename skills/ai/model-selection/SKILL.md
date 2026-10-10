@@ -1,6 +1,6 @@
 ---
 name: model-selection
-description: Use when choosing which LLM to use for a task. Covers matching capability to task, cost and latency trade-offs, routing between models, benchmark skepticism, and evaluating on your own data.
+description: Use when choosing which LLM to use for a task. Covers matching capability to task, cost and latency trade-offs, routing between models, benchmark skepticism, and evaluating on your own data. Trigger on "which model should i use for this", "is the new model worth switching to", "route easy requests to a cheaper model". Do not use for building the evaluation set itself — see the llm-evaluation skill; for cutting token spend, see the llm-cost-optimization skill.
 metadata:
   category: ai
   version: 1.0.0

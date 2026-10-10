@@ -1,6 +1,6 @@
 ---
 name: file-organization
-description: Use when organizing, deduplicating, or cleaning up files. Covers safe classification and renaming, finding true duplicates, reclaiming space, and never destroying data during a cleanup.
+description: Use when organizing, deduplicating, or cleaning up files. Covers safe classification and renaming, finding true duplicates, reclaiming space, and never destroying data during a cleanup. Trigger on "clean up my downloads folder", "find duplicate files", "free up disk space", "rename these files consistently".
 metadata:
   category: productivity
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: user-research
-description: Use when planning, running, or synthesizing user research. Covers interview questions that produce evidence rather than opinions, usability testing, and turning transcripts into findings.
+description: Use when planning, running, or synthesizing user research. Covers interview questions that produce evidence rather than opinions, usability testing, and turning transcripts into findings. Trigger on "write an interview guide", "plan a usability test", "synthesize these interview transcripts". Do not use for funnels and metrics — see the product-analysis skill; for notes from a regular meeting, see the meeting-notes skill.
 metadata:
   category: business
   version: 1.0.0

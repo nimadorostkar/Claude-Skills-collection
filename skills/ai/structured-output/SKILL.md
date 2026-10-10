@@ -1,6 +1,6 @@
 ---
 name: structured-output
-description: Use when an LLM must return machine-readable data. Covers schema design for models, native structured-output modes, validation and repair, and extraction that survives contact with messy input.
+description: Use when an LLM must return machine-readable data. Covers schema design for models, native structured-output modes, validation and repair, and extraction that survives contact with messy input. Trigger on "llm returns invalid json", "extract fields from these emails", "classify tickets into fixed categories". Do not use for scraping web pages — see the web-data-extraction skill; for general prompt quality, see the prompt-engineering skill.
 metadata:
   category: ai
   version: 1.0.0

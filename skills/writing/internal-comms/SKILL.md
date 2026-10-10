@@ -1,6 +1,6 @@
 ---
 name: internal-comms
-description: Use when writing an announcement, update, or memo for colleagues. Covers leading with the point, matching the format to the audience, and writing something people actually read.
+description: Use when writing an announcement, update, or memo for colleagues. Covers leading with the point, matching the format to the audience, and writing something people actually read. Trigger on "write an announcement for the team", "draft a weekly status update", "write a memo proposing this change". Do not use for user-facing release notes — see the changelog skill; for writing up a meeting, see the meeting-notes skill.
 metadata:
   category: writing
   version: 1.0.0

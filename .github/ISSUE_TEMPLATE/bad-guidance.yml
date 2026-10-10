@@ -1,0 +1,29 @@
+name: Wrong or outdated guidance
+description: A skill loaded and told the agent to do the wrong thing.
+labels: [guidance]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+      placeholder: postgres
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: The request, verbatim
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What the agent did, and what it should have done
+      description: Quote the line in the skill that caused it, if you can find it.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Version notes, documentation, or a reproduction showing the guidance is wrong or out of date.

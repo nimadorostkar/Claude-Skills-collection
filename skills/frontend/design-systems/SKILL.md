@@ -1,6 +1,6 @@
 ---
 name: design-systems
-description: Use when building or maintaining a component library and design tokens. Covers token architecture, component API design, variants and states, documentation, and governing adoption across a codebase.
+description: Use when building or maintaining a component library and design tokens. Covers token architecture, component API design, variants and states, documentation, and governing adoption across a codebase. Trigger on "build a component library", "we have six different button components", "set up design tokens", "what props should this component take". Do not use for dark mode or brand themes — see the theming skill; for critiquing a design, see the ui-review skill.
 metadata:
   category: frontend
   version: 1.0.0

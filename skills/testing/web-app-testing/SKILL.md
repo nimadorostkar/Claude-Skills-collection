@@ -1,6 +1,6 @@
 ---
 name: web-app-testing
-description: Use when testing a web application interactively — verifying a feature, reproducing a bug, or checking a flow in a real browser. Covers systematic exploration, console and network inspection, and reporting what you find.
+description: Use when testing a web application interactively — verifying a feature, reproducing a bug, or checking a flow in a real browser. Covers systematic exploration, console and network inspection, and reporting what you find. Trigger on "check this works in the browser", "reproduce this bug", "click through the signup flow". Do not use for writing automated browser tests — see the e2e-playwright skill; for layout checks, see the visual-qa skill.
 metadata:
   category: testing
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: long-form-content
-description: Use when writing a researched article, blog post, or long-form piece. Covers building an argument, researching and citing, structure, and writing something with a point rather than a survey.
+description: Use when writing a researched article, blog post, or long-form piece. Covers building an argument, researching and citing, structure, and writing something with a point rather than a survey. Trigger on "write a blog post about", "turn my research into an article", "write an essay arguing that". Do not use for polishing an existing draft — see the editing skill; for developer docs, see the technical-documentation skill.
 metadata:
   category: writing
   version: 1.0.0

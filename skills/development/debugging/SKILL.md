@@ -1,6 +1,6 @@
 ---
 name: debugging
-description: Use when a bug's cause is unknown. Applies a hypothesis-driven method — reproduce, isolate, instrument, prove — instead of speculative edits, and covers profiler, debugger, and log-based investigation.
+description: Use when a bug's cause is unknown. Applies a hypothesis-driven method — reproduce, isolate, instrument, prove — instead of speculative edits, and covers profiler, debugger, and log-based investigation. Trigger on "no idea why this is failing", "works locally but not in prod", "this test fails intermittently", "it got slower and i don't know why". Do not use once the cause is known and needs a tested fix — see the bug-fix-protocol skill.
 metadata:
   category: development
   version: 1.0.0

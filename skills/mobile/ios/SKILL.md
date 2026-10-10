@@ -1,6 +1,6 @@
 ---
 name: ios
-description: Use when building native iOS applications. Covers SwiftUI architecture, state management, navigation, networking, persistence, background behavior, and App Store submission requirements.
+description: Use when building native iOS applications. Covers SwiftUI architecture, state management, navigation, networking, persistence, background behavior, and App Store submission requirements. Trigger on "structure my swiftui app", "deep links open the wrong screen", "background fetch isn't running". Do not use for Swift language issues like concurrency or optionals — see the swift skill; for signing and rollout, see the mobile-release skill.
 metadata:
   category: mobile
   version: 1.0.0

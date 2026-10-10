@@ -1,0 +1,301 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "nimadorostkar"
+  },
+  "metadata": {
+    "description": "Production-grade skills for Claude Code, one plugin per category."
+  },
+  "plugins": [
+    {
+      "name": "languages",
+      "description": "Languages — Idiomatic, modern practice for each language, with the quality gate that keeps it honest.",
+      "source": "./",
+      "strict": false,
+      "category": "languages",
+      "skills": [
+        "./skills/languages/cpp",
+        "./skills/languages/csharp-dotnet",
+        "./skills/languages/go",
+        "./skills/languages/java-kotlin",
+        "./skills/languages/php",
+        "./skills/languages/python",
+        "./skills/languages/ruby",
+        "./skills/languages/rust",
+        "./skills/languages/shell",
+        "./skills/languages/sql",
+        "./skills/languages/swift",
+        "./skills/languages/typescript"
+      ]
+    },
+    {
+      "name": "development",
+      "description": "Development — The craft that is independent of language: review, debugging, refactoring, design, and version control.",
+      "source": "./",
+      "strict": false,
+      "category": "development",
+      "skills": [
+        "./skills/development/architecture-decisions",
+        "./skills/development/bug-fix-protocol",
+        "./skills/development/cli-development",
+        "./skills/development/code-review",
+        "./skills/development/debugging",
+        "./skills/development/design-patterns",
+        "./skills/development/domain-modeling",
+        "./skills/development/git-workflow",
+        "./skills/development/legacy-modernization",
+        "./skills/development/refactoring",
+        "./skills/development/repository-exploration",
+        "./skills/development/simple-design",
+        "./skills/development/system-design"
+      ]
+    },
+    {
+      "name": "backend",
+      "description": "Backend — APIs, services, messaging, and the frameworks that carry them.",
+      "source": "./",
+      "strict": false,
+      "category": "backend",
+      "skills": [
+        "./skills/backend/api-design",
+        "./skills/backend/background-jobs",
+        "./skills/backend/caching",
+        "./skills/backend/django",
+        "./skills/backend/event-driven-architecture",
+        "./skills/backend/fastapi",
+        "./skills/backend/graphql",
+        "./skills/backend/microservices",
+        "./skills/backend/nestjs",
+        "./skills/backend/realtime-websockets",
+        "./skills/backend/spring-boot"
+      ]
+    },
+    {
+      "name": "frontend",
+      "description": "Frontend — Frameworks, architecture, accessibility, and performance in the browser.",
+      "source": "./",
+      "strict": false,
+      "category": "frontend",
+      "skills": [
+        "./skills/frontend/accessibility",
+        "./skills/frontend/angular",
+        "./skills/frontend/design-systems",
+        "./skills/frontend/frontend-architecture",
+        "./skills/frontend/nextjs",
+        "./skills/frontend/react",
+        "./skills/frontend/visual-qa",
+        "./skills/frontend/vue",
+        "./skills/frontend/web-performance"
+      ]
+    },
+    {
+      "name": "mobile",
+      "description": "Mobile — Native and cross-platform mobile development, and shipping it safely.",
+      "source": "./",
+      "strict": false,
+      "category": "mobile",
+      "skills": [
+        "./skills/mobile/flutter",
+        "./skills/mobile/ios",
+        "./skills/mobile/mobile-release",
+        "./skills/mobile/react-native"
+      ]
+    },
+    {
+      "name": "devops",
+      "description": "DevOps & Cloud — Infrastructure, delivery, reliability, and the arithmetic of running things in production.",
+      "source": "./",
+      "strict": false,
+      "category": "devops",
+      "skills": [
+        "./skills/devops/aws-cdk",
+        "./skills/devops/aws-cost-optimization",
+        "./skills/devops/aws-serverless",
+        "./skills/devops/chaos-engineering",
+        "./skills/devops/ci-cd",
+        "./skills/devops/cloud-architecture",
+        "./skills/devops/containers",
+        "./skills/devops/incident-response",
+        "./skills/devops/kubernetes",
+        "./skills/devops/network-troubleshooting",
+        "./skills/devops/observability",
+        "./skills/devops/site-reliability",
+        "./skills/devops/terraform"
+      ]
+    },
+    {
+      "name": "data",
+      "description": "Data — Databases, schema design, and the pipelines that move data around.",
+      "source": "./",
+      "strict": false,
+      "category": "data",
+      "skills": [
+        "./skills/data/data-modeling",
+        "./skills/data/data-quality",
+        "./skills/data/database-performance",
+        "./skills/data/pandas",
+        "./skills/data/postgres",
+        "./skills/data/spark"
+      ]
+    },
+    {
+      "name": "security",
+      "description": "Security — Writing secure code, auditing it, and protecting the supply chain around it.",
+      "source": "./",
+      "strict": false,
+      "category": "security",
+      "skills": [
+        "./skills/security/secrets-management",
+        "./skills/security/secure-coding",
+        "./skills/security/security-review",
+        "./skills/security/supply-chain",
+        "./skills/security/threat-modeling"
+      ]
+    },
+    {
+      "name": "testing",
+      "description": "Testing — What to test, at which level, and how to keep a suite worth running.",
+      "source": "./",
+      "strict": false,
+      "category": "testing",
+      "skills": [
+        "./skills/testing/e2e-playwright",
+        "./skills/testing/performance-testing",
+        "./skills/testing/qa-review",
+        "./skills/testing/test-driven-development",
+        "./skills/testing/test-strategy",
+        "./skills/testing/web-app-testing"
+      ]
+    },
+    {
+      "name": "ai",
+      "description": "AI & LLM — Prompting, retrieval, evaluation, agents, and the production concerns of shipping a model.",
+      "source": "./",
+      "strict": false,
+      "category": "ai",
+      "skills": [
+        "./skills/ai/agent-design",
+        "./skills/ai/context-engineering",
+        "./skills/ai/fine-tuning",
+        "./skills/ai/llm-cost-optimization",
+        "./skills/ai/llm-evaluation",
+        "./skills/ai/llm-integration",
+        "./skills/ai/mcp-server",
+        "./skills/ai/ml-pipeline",
+        "./skills/ai/model-selection",
+        "./skills/ai/prompt-engineering",
+        "./skills/ai/rag",
+        "./skills/ai/structured-output"
+      ]
+    },
+    {
+      "name": "agent-tooling",
+      "description": "Agent Tooling — Building the skills, hooks, commands, and plugins that agents run on.",
+      "source": "./",
+      "strict": false,
+      "category": "agent-tooling",
+      "skills": [
+        "./skills/agent-tooling/agent-instructions",
+        "./skills/agent-tooling/agent-memory",
+        "./skills/agent-tooling/hooks",
+        "./skills/agent-tooling/plugin-development",
+        "./skills/agent-tooling/skill-authoring",
+        "./skills/agent-tooling/skill-review",
+        "./skills/agent-tooling/slash-commands",
+        "./skills/agent-tooling/subagents"
+      ]
+    },
+    {
+      "name": "finance",
+      "description": "Finance — Position sizing, risk, market analysis, and quantitative method. Educational, not advice.",
+      "source": "./",
+      "strict": false,
+      "category": "finance",
+      "skills": [
+        "./skills/finance/backtesting",
+        "./skills/finance/earnings-analysis",
+        "./skills/finance/market-breadth",
+        "./skills/finance/market-regime",
+        "./skills/finance/options-strategy",
+        "./skills/finance/portfolio-review",
+        "./skills/finance/position-sizing",
+        "./skills/finance/quantitative-analysis",
+        "./skills/finance/risk-management",
+        "./skills/finance/stock-screening",
+        "./skills/finance/technical-analysis",
+        "./skills/finance/trade-journal"
+      ]
+    },
+    {
+      "name": "documents",
+      "description": "Documents — Producing and parsing Word, Excel, PowerPoint, PDF, and diagrams.",
+      "source": "./",
+      "strict": false,
+      "category": "documents",
+      "skills": [
+        "./skills/documents/diagrams",
+        "./skills/documents/document-conversion",
+        "./skills/documents/pdf",
+        "./skills/documents/presentations",
+        "./skills/documents/spreadsheets",
+        "./skills/documents/word-documents"
+      ]
+    },
+    {
+      "name": "design",
+      "description": "Design — Visual design, brand systems, theming, and interface critique.",
+      "source": "./",
+      "strict": false,
+      "category": "design",
+      "skills": [
+        "./skills/design/brand-guidelines",
+        "./skills/design/generative-art",
+        "./skills/design/theming",
+        "./skills/design/ui-review",
+        "./skills/design/visual-design"
+      ]
+    },
+    {
+      "name": "writing",
+      "description": "Writing — Documentation, changelogs, internal communication, and editing.",
+      "source": "./",
+      "strict": false,
+      "category": "writing",
+      "skills": [
+        "./skills/writing/changelog",
+        "./skills/writing/editing",
+        "./skills/writing/internal-comms",
+        "./skills/writing/long-form-content",
+        "./skills/writing/technical-documentation"
+      ]
+    },
+    {
+      "name": "productivity",
+      "description": "Productivity — Research, verification, notes, files, and getting data out of the web.",
+      "source": "./",
+      "strict": false,
+      "category": "productivity",
+      "skills": [
+        "./skills/productivity/deep-research",
+        "./skills/productivity/fact-checking",
+        "./skills/productivity/file-organization",
+        "./skills/productivity/meeting-notes",
+        "./skills/productivity/web-data-extraction"
+      ]
+    },
+    {
+      "name": "business",
+      "description": "Business — Competitive analysis, product metrics, user research, and go-to-market work.",
+      "source": "./",
+      "strict": false,
+      "category": "business",
+      "skills": [
+        "./skills/business/competitive-analysis",
+        "./skills/business/lead-research",
+        "./skills/business/product-analysis",
+        "./skills/business/resume",
+        "./skills/business/user-research"
+      ]
+    }
+  ]
+}

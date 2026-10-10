@@ -1,6 +1,6 @@
 ---
 name: cpp
-description: Use when writing modern C++ (17/20/23). Covers RAII, smart-pointer ownership, move semantics, ranges, concepts, and eliminating undefined behavior with sanitizers.
+description: Use when writing modern C++ (17/20/23). Covers RAII, smart-pointer ownership, move semantics, ranges, concepts, and eliminating undefined behavior with sanitizers. Trigger on "segfault in my c++ code", "should this be a unique_ptr or shared_ptr", "get rid of the raw new and delete", "asan reports heap-use-after-free".
 metadata:
   category: languages
   version: 1.0.0

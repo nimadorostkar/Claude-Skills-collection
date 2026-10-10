@@ -98,13 +98,16 @@ Below about 60 lines, ask whether the skill is thin enough that it should be a s
 
 `python scripts/validate.py` enforces the mechanical rules:
 
-- Frontmatter parses; `name`, `description`, `metadata.category`, `metadata.version` present.
-- `name` matches the directory name.
-- `metadata.category` matches the parent directory.
+- Frontmatter is valid YAML, parsed the way an agent parses it. An unquoted `: ` inside a description is the usual culprit — it looks fine and the skill never loads.
+- `name` is lowercase kebab-case, at most 64 characters, and matches the directory name.
+- `description` is 60–1,024 characters, contains no `<` or `>`, and every "see the X skill" boundary names a skill that exists.
+- `metadata.category` matches the parent directory; `metadata.version` is semver; `metadata.tags` is 3–6 lowercase tags.
 - All nine sections present, in order.
 - No `TODO`, `FIXME`, `XXX`, or placeholder text.
 - No attribution, no source URLs, no "adapted from".
 - No emoji.
-- Every internal link resolves.
+- Every internal link resolves — in skills, and in the README, docs, category indexes, and examples.
 
-It runs in CI. It does not check whether the skill is any good — that is what review is for.
+`python scripts/build_index.py` regenerates `docs/catalog.md`, `categories/*.md`, and `.claude-plugin/marketplace.json` from the skills. Never edit those by hand; CI fails if they are stale.
+
+Both run in CI. It does not check whether the skill is any good — that is what review is for.

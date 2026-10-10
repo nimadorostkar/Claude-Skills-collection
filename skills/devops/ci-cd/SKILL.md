@@ -1,6 +1,6 @@
 ---
 name: ci-cd
-description: Use when building or fixing a delivery pipeline. Covers pipeline structure, caching, test parallelization, deployment strategies, secrets, and making the pipeline fast enough that people do not route around it.
+description: Use when building or fixing a delivery pipeline. Covers pipeline structure, caching, test parallelization, deployment strategies, secrets, and making the pipeline fast enough that people do not route around it. Trigger on "our ci takes 40 minutes", "flaky pipeline keeps failing", "set up github actions to deploy". Do not use for secret storage and rotation in general — see the secrets-management skill; for which tests to write, see the test-strategy skill.
 metadata:
   category: devops
   version: 1.0.0

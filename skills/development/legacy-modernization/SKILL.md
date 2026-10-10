@@ -1,6 +1,6 @@
 ---
 name: legacy-modernization
-description: Use when incrementally modernizing a legacy system without a rewrite. Covers characterization tests, seams, the strangler pattern, and sequencing migrations so the system stays shippable throughout.
+description: Use when incrementally modernizing a legacy system without a rewrite. Covers characterization tests, seams, the strangler pattern, and sequencing migrations so the system stays shippable throughout. Trigger on "we should just rewrite it", "migrate off this old framework", "extract a service from the monolith". Do not use for restructuring a single module — see the refactoring skill; for whether to split into services, see the microservices skill.
 metadata:
   category: development
   version: 1.0.0

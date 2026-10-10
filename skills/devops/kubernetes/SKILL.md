@@ -1,6 +1,6 @@
 ---
 name: kubernetes
-description: Use when deploying to or debugging Kubernetes. Covers workload configuration, resource requests and limits, probes, rollout strategy, networking, and the failure modes that produce CrashLoopBackOff and OOMKilled.
+description: Use when deploying to or debugging Kubernetes. Covers workload configuration, resource requests and limits, probes, rollout strategy, networking, and the failure modes that produce CrashLoopBackOff and OOMKilled. Trigger on "pod keeps restarting", "pod stuck in crashloopbackoff", "container got oomkilled". Do not use for Dockerfile and image problems — see the containers skill; for DNS or TLS failures outside the cluster, see the network-troubleshooting skill.
 metadata:
   category: devops
   version: 1.0.0

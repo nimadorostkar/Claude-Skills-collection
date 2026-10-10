@@ -1,6 +1,6 @@
 ---
 name: market-breadth
-description: Use when assessing the internal health of a market advance or decline. Covers advance-decline lines, new highs versus new lows, percentage above moving averages, and divergence between the index and its constituents.
+description: Use when assessing the internal health of a market advance or decline. Covers advance-decline lines, new highs versus new lows, percentage above moving averages, and divergence between the index and its constituents. Trigger on "is this rally healthy or just a few big stocks", "how many stocks are above the 200 day", "index at highs but most stocks are falling". Do not use for classifying risk-on or risk-off conditions — see the market-regime skill.
 metadata:
   category: finance
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: changelog
-description: Use when writing a changelog or release notes. Covers what belongs in one, writing for users rather than for git, semantic versioning, and documenting breaking changes so nobody is surprised.
+description: Use when writing a changelog or release notes. Covers what belongs in one, writing for users rather than for git, semantic versioning, and documenting breaking changes so nobody is surprised. Trigger on "write release notes for v2.3", "update the changelog", "is this a major or minor version bump". Do not use for announcing changes to colleagues — see the internal-comms skill; for commit messages, see the git-workflow skill.
 metadata:
   category: writing
   version: 1.0.0

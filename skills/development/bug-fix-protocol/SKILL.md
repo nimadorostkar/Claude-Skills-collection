@@ -1,6 +1,6 @@
 ---
 name: bug-fix-protocol
-description: Use when fixing a reported bug end to end. Enforces a disciplined sequence — reproduce, write a failing test, fix minimally, verify, prevent recurrence — and blocks the common failure mode of patching symptoms.
+description: Use when fixing a reported bug end to end. Enforces a disciplined sequence — reproduce, write a failing test, fix minimally, verify, prevent recurrence — and blocks the common failure mode of patching symptoms. Trigger on "fix this bug", "users are reporting that", "this regressed in the last release", "need a hotfix for". Do not use when the cause is still unknown — see the debugging skill.
 metadata:
   category: development
   version: 1.0.0

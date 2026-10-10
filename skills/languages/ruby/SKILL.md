@@ -1,6 +1,6 @@
 ---
 name: ruby
-description: Use when writing Ruby or working in Rails codebases. Covers idiomatic object design, service objects, ActiveRecord query performance, RSpec structure, and RuboCop-clean style.
+description: Use when writing Ruby or working in Rails codebases. Covers idiomatic object design, service objects, ActiveRecord query performance, RSpec structure, and RuboCop-clean style. Trigger on "this rails controller is too fat", "activerecord is doing n+1 queries", "clean up this rspec suite", "rubocop keeps complaining". Do not use for language-agnostic job queue design — see the background-jobs skill.
 metadata:
   category: languages
   version: 1.0.0

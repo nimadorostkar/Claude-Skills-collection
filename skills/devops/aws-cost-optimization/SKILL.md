@@ -1,6 +1,6 @@
 ---
 name: aws-cost-optimization
-description: Use when reducing cloud spend. Covers finding the actual cost drivers, right-sizing, commitment discounts, storage lifecycle, the hidden costs of data transfer and logging, and avoiding false savings.
+description: Use when reducing cloud spend. Covers finding the actual cost drivers, right-sizing, commitment discounts, storage lifecycle, the hidden costs of data transfer and logging, and avoiding false savings. Trigger on "our aws bill doubled", "should we buy savings plans", "nat gateway costs are insane", "cut our cloud spend". Do not use for LLM token or API spend — see the llm-cost-optimization skill.
 metadata:
   category: devops
   version: 1.0.0

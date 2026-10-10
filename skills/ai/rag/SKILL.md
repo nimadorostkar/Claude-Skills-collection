@@ -1,6 +1,6 @@
 ---
 name: rag
-description: Use when building retrieval-augmented generation. Covers chunking, embedding and hybrid search, reranking, grounding and citation, and diagnosing whether a bad answer is a retrieval failure or a generation failure.
+description: Use when building retrieval-augmented generation. Covers chunking, embedding and hybrid search, reranking, grounding and citation, and diagnosing whether a bad answer is a retrieval failure or a generation failure. Trigger on "our rag keeps hallucinating", "chat with our docs", "retrieval returns the wrong documents". Do not use for managing context in a long conversation — see the context-engineering skill; for teaching a style or format, see the fine-tuning skill.
 metadata:
   category: ai
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: options-strategy
-description: Use when analyzing or constructing an options position. Covers the greeks in practical terms, implied volatility and its term structure, common structures and their true risk, and assignment and expiration mechanics.
+description: Use when analyzing or constructing an options position. Covers the greeks in practical terms, implied volatility and its term structure, common structures and their true risk, and assignment and expiration mechanics. Trigger on "should i sell puts or buy calls here", "is iv too high to buy this option", "what happens if my short call gets assigned". Do not use for deciding how much capital to commit — see the position-sizing skill.
 metadata:
   category: finance
   version: 1.0.0

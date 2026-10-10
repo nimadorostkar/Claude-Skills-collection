@@ -119,6 +119,6 @@ Scripts are the strongest form of this. A script the agent runs costs a handful 
 
 ## Once it works
 
-Add the version. Run `python scripts/validate.py`. Open the PR with the before/after evidence.
+Add the version. Run `python scripts/validate.py`, then `python scripts/build_index.py` to add it to the catalog, its category index, and its category plugin. Open the PR with the before/after evidence.
 
 The evidence is the review. A skill without it will be asked for it.

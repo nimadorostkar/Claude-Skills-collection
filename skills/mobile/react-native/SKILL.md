@@ -1,6 +1,6 @@
 ---
 name: react-native
-description: Use when building cross-platform mobile apps with React Native or Expo. Covers navigation, platform differences, list performance, native modules, offline behavior, and release builds.
+description: Use when building cross-platform mobile apps with React Native or Expo. Covers navigation, platform differences, list performance, native modules, offline behavior, and release builds. Trigger on "flatlist is laggy", "expo or bare react native", "bridge to a native module", "set up ota updates". Do not use for web React component design — see the react skill; for store signing and staged rollout, see the mobile-release skill.
 metadata:
   category: mobile
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: go
-description: Use when writing Go services, CLIs, or libraries. Covers idiomatic error wrapping, goroutine and context discipline, interface design, table-driven tests, and the race detector.
+description: Use when writing Go services, CLIs, or libraries. Covers idiomatic error wrapping, goroutine and context discipline, interface design, table-driven tests, and the race detector. Trigger on "goroutine leak", "how should i wrap this error in go", "race detector is flagging this", "write table-driven tests for this". Do not use for designing a CLI's flags and exit codes — see the cli-development skill.
 metadata:
   category: languages
   version: 1.0.0

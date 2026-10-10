@@ -1,6 +1,6 @@
 ---
 name: data-quality
-description: Use when validating a dataset or building quality checks into a pipeline. Covers profiling, schema and constraint validation, freshness and completeness checks, anomaly detection, and failing a pipeline correctly.
+description: Use when validating a dataset or building quality checks into a pipeline. Covers profiling, schema and constraint validation, freshness and completeness checks, anomaly detection, and failing a pipeline correctly. Trigger on "this metric looks wrong", "add checks to the pipeline", "data is missing for yesterday", "validate this file before loading it". Do not use for cleaning or reshaping data in Python — see the pandas skill.
 metadata:
   category: data
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: qa-review
-description: Use when reviewing a feature for release readiness. Covers acceptance-criteria verification, edge-case enumeration, regression risk assessment, and a release decision that is a judgment rather than a vibe.
+description: Use when reviewing a feature for release readiness. Covers acceptance-criteria verification, edge-case enumeration, regression risk assessment, and a release decision that is a judgment rather than a vibe. Trigger on "is this ready to ship", "release sign-off", "what edge cases are we missing", "regression risk of this change". Do not use for line-by-line PR review — see the code-review skill; for the overall test plan, see the test-strategy skill.
 metadata:
   category: testing
   version: 1.0.0

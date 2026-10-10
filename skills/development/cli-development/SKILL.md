@@ -1,6 +1,6 @@
 ---
 name: cli-development
-description: Use when building command-line tools. Covers argument design, exit codes, streams and piping, progress output, configuration precedence, and behavior that respects the shell.
+description: Use when building command-line tools. Covers argument design, exit codes, streams and piping, progress output, configuration precedence, and behavior that respects the shell. Trigger on "build a cli for", "what exit code should this return", "make this tool work in a pipe", "design the flags for this command". Do not use for writing a Bash script — see the shell skill.
 metadata:
   category: development
   version: 1.0.0

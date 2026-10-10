@@ -1,6 +1,6 @@
 ---
 name: supply-chain
-description: Use when assessing dependency and build-pipeline risk. Covers dependency vetting, lockfiles, SBOMs, provenance and signing, pinning CI actions, and responding to a compromised package.
+description: Use when assessing dependency and build-pipeline risk. Covers dependency vetting, lockfiles, SBOMs, provenance and signing, pinning CI actions, and responding to a compromised package. Trigger on "is this package safe to add", "npm audit shows vulnerabilities", "pin our github actions", "a dependency was compromised". Do not use for leaked credentials — see the secrets-management skill; for pipeline structure, see the ci-cd skill.
 metadata:
   category: security
   version: 1.0.0

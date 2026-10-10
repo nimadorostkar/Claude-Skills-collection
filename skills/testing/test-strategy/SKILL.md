@@ -1,6 +1,6 @@
 ---
 name: test-strategy
-description: Use when deciding what to test and at which level. Covers the test pyramid, what belongs in unit versus integration versus end-to-end tests, coverage as a signal rather than a target, and eliminating flakiness.
+description: Use when deciding what to test and at which level. Covers the test pyramid, what belongs in unit versus integration versus end-to-end tests, coverage as a signal rather than a target, and eliminating flakiness. Trigger on "what should we test", "our test suite is slow and flaky", "unit or integration test", "what coverage target". Do not use for writing Playwright tests — see the e2e-playwright skill; for the TDD loop, see the test-driven-development skill.
 metadata:
   category: testing
   version: 1.0.0

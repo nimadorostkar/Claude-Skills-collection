@@ -1,6 +1,6 @@
 ---
 name: technical-analysis
-description: Use when analyzing price and volume structure. Covers trend identification, support and resistance, volume confirmation, moving-average structure, and the limits of what chart analysis can tell you.
+description: Use when analyzing price and volume structure. Covers trend identification, support and resistance, volume confirmation, moving-average structure, and the limits of what chart analysis can tell you. Trigger on "look at this chart", "where is support and resistance on spy", "is this stock breaking out". Do not use for market-wide participation internals — see the market-breadth skill.
 metadata:
   category: finance
   version: 1.0.0

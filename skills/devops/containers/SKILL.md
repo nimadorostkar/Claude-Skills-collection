@@ -1,6 +1,6 @@
 ---
 name: containers
-description: Use when building or debugging container images. Covers multi-stage builds, layer caching, image size, non-root users, signal handling, and the security defaults most Dockerfiles get wrong.
+description: Use when building or debugging container images. Covers multi-stage builds, layer caching, image size, non-root users, signal handling, and the security defaults most Dockerfiles get wrong. Trigger on "my docker image is 2gb", "container exits immediately", "container ignores sigterm". Do not use for pods, deployments, or cluster scheduling — see the kubernetes skill; for vulnerable dependencies and image provenance, see the supply-chain skill.
 metadata:
   category: devops
   version: 1.0.0

@@ -1,6 +1,6 @@
 ---
 name: presentations
-description: Use when creating or editing slide decks (.pptx). Covers slide structure, using layouts and templates correctly, charts and images, speaker notes, and building a deck that communicates rather than decorates.
+description: Use when creating or editing slide decks (.pptx). Covers slide structure, using layouts and templates correctly, charts and images, speaker notes, and building a deck that communicates rather than decorates. Trigger on "make a slide deck from this", "edit this pptx", "turn this report into slides". Do not use for drawing architecture or flow diagrams to embed — see the diagrams skill.
 metadata:
   category: documents
   version: 1.0.0

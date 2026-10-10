@@ -1,6 +1,6 @@
 ---
 name: theming
-description: Use when building a theme or theming system for an interface. Covers token architecture, dark mode, contrast preservation across themes, and generating a coherent palette from a seed colour.
+description: Use when building a theme or theming system for an interface. Covers token architecture, dark mode, contrast preservation across themes, and generating a coherent palette from a seed colour. Trigger on "add dark mode", "contrast breaks in dark mode", "white-label this app", "generate a palette from our brand color". Do not use for a component library's full token and API architecture — see the design-systems skill.
 metadata:
   category: design
   version: 1.0.0
