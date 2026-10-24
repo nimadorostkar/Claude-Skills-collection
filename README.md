@@ -172,6 +172,7 @@ metadata:
 
 The template is in [templates/SKILL.md](templates/SKILL.md). The rules are in [docs/standards.md](docs/standards.md).
 
+
 ## Examples
 
 Worked sessions showing skills in use, end to end:
