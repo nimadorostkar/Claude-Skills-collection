@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 """Validate every skill in the repository against the standard.
 
 Checks the mechanical rules only. Whether a skill is any good is what review
@@ -193,6 +194,7 @@ def check_docs() -> list[str]:
             continue  # the template is full of illustrative placeholders
         errors.extend(broken_links(path, strip_code(path.read_text(encoding="utf-8"))))
     return errors
+
 
 
 def main() -> int:
