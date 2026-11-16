@@ -1,5 +1,6 @@
 # Authoring a skill
 
+
 A skill has two jobs: **load at the right moment**, and **change what the agent does when it loads**. Nearly every failed skill fails at the first, and nearly every rejected contribution fails at the second.
 
 ## The description is the skill
